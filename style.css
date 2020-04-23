@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+section, footer {
+text-align: center;
+color: white;
+background-color: #89023e;
+background-size: auto;
+border-radius: 5px;
+height: 70px;
+}  
+footer {
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+}
+section {
+font-family: 'Abril Fatface', serif;
+font-size: 30px;
+}
+body {
+margin: 0 auto;
+width: 750px;
+height: 200px;
+}
+
+main {
+font-size: 20px;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 50px;
+}
+h2 {
+border-bottom: solid 1px #89023e;
+font-family: 'Abril Fatface', serif;
+}
+img {
+width: 160px;
+height: 200px;
+float: right;
+position: relative;
+top: -50px;
+right: 25px;
+}
+.link {
+color: #ffd9da;
+}
+a {
+color: #ea638c;
+}
+.list {
+font-family: 'Raleway', sans-serif;
+}
