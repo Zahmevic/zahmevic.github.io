@@ -57,3 +57,7 @@ font-family: 'Raleway', sans-serif;
     background-color: #ea638c;
   }
 }
+#date { color: yellow;}
+span {
+    font-weight: 700;
+}
