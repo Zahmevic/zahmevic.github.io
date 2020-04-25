@@ -39,7 +39,5 @@ try {
     }
     document.getElementById("date2").textContent = new Date().toLocaleDateString("en-US", options);
 } catch (e) {
-    alert("Error with code or your browser does not support Locale");
 }
 let oLastModif = new Date(document.lastModified);
-alert(document.lastModified);
