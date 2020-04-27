@@ -28,7 +28,7 @@ let monthName = month[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
 
-document.getElementById("date").textContent = fulldate;
+document.getElementById("date").textContent = oLastModif;
 // *****************************************
 try {
     let options = {
