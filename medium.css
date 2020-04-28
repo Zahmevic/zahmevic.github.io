@@ -1,1 +1,26 @@
 @media only screen and (min-width: 32.5em){
+header {
+    font-size: 30px;
+}
+h2 {
+    font-size: 40px;
+}
+img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+    box-shadow:0 0 15px 0 #530113;
+    }
+    .list {
+        font-size: 20px;
+    }
+    body {
+        margin: auto;
+        max-width:760px;
+        }
+    footer {
+        font-size: 20px;
+    }
+    }

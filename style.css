@@ -3,24 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-section, footer {
-text-align: center;
-color: white;
+header, footer {
 background-color: #89023e;
 background-size: auto;
 border-radius: 5px;
 height: 70px;
 }  
 footer {
-font-size: 18px;
+font-size: 15px;
 font-family: 'Raleway', sans-serif;
+text-align: center;
+color: white;
 }
 
 body {
-margin: 0 auto;
+margin: auto;
+max-width: 560px;
+
 }
-h1, section {
-  font-size: 30px;
+header {
+  font-size: 20px;
+  font-family: 'Lobster', serif;
+  color: white;
 }
 main {
 padding-left: 30px;
@@ -30,12 +34,14 @@ margin-top: 50px;
 h2 {
 border-bottom: solid 1px #89023e;
 font-family: 'Dancing Script', serif;
-font-size: 20px;
+font-size: 25px;
 }
 img {
-width: 160px;
+width: 100px;
 height: auto;
-
+float: right;
+margin-top: -40px;
+margin-right: 20px;
 }
 .link {
 color: #ffd9da;
@@ -45,7 +51,7 @@ color: #ea638c;
 }
 .list {
 font-family: 'Raleway', sans-serif;
-font-size: 20px;
+font-size: 10px;
 }
 
 #date { color: yellow;}
