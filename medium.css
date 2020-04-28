@@ -1,9 +1,16 @@
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 32.5em){
     body {
         background-color: #ffedd4; }
-    img {
-        float: right;}
+        img {
+            width: 160px;
+            height: auto;
+            box-shadow:0 0 30px #530113;
+            border-radius: 0 10px 0 0;
+            }
     main {
-        font-size: 10px;
+        font-size: 20px;
+    }
+    section {
+        font-size: 30px;
     }
 }

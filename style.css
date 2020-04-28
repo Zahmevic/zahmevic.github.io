@@ -17,14 +17,14 @@ font-family: 'Raleway', sans-serif;
 }
 section {
 font-family: 'Abril Fatface', serif;
-font-size: 30px;
+font-size: 20px;
 }
 body {
 margin: 0 auto;
 }
 
 main {
-font-size: 20px;
+font-size: 10px;
 padding-left: 30px;
 padding-right: 30px;
 margin-top: 50px;
@@ -35,10 +35,8 @@ font-family: 'Dancing Script', serif;
 }
 img {
 width: 160px;
-height: 200px;
-position: relative;
-top: -50px;
-right: 25px;
+height: auto;
+
 }
 .link {
 color: #ffd9da;
