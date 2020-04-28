@@ -54,6 +54,7 @@ font-family: 'Raleway', sans-serif;
 @media only screen and (max-width: 400px) {
   body {
     background-color: #ffedd4;
+  margin: 0 auto;
   }
 }
 #date { color: yellow;}
