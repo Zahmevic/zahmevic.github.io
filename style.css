@@ -38,7 +38,7 @@ font-family: 'Dancing Script', serif;
 img {
 width: 160px;
 height: 200px;
-float: right;
+
 position: relative;
 top: -50px;
 right: 25px;
