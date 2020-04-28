@@ -1,6 +1,4 @@
 @media only screen and (min-width: 32.5em){
-    body {
-        background-color: #ffedd4; }
         img {
             width: 160px;
             height: auto;
@@ -14,6 +12,6 @@
         font-size: 40px;
     }
     .list {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
