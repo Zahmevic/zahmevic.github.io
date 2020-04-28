@@ -38,7 +38,6 @@ font-family: 'Dancing Script', serif;
 img {
 width: 160px;
 height: 200px;
-
 position: relative;
 top: -50px;
 right: 25px;
@@ -54,7 +53,7 @@ font-family: 'Raleway', sans-serif;
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-color: #ea638c;
+    background-color: #ffedd4;
   }
 }
 #date { color: yellow;}
