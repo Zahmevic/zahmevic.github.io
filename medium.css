@@ -7,10 +7,10 @@
             box-shadow:0 0 30px #530113;
             border-radius: 0 10px 0 0;
             }
-    main {
+    h2 {
         font-size: 30px;
     }
-    section {
+    h1 {
         font-size: 40px;
     }
 }
