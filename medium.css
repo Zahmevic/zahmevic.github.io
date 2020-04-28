@@ -2,6 +2,8 @@
     body {
         background-color: #ffedd4; }
     img {
-        float: right;
+        float: right;}
+    main {
+        font-size: 10px;
     }
 }
