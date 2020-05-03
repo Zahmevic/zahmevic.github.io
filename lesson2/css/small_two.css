@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+    body {
+        margin: 0 auto;
+        padding: 5px;
+    }
+    header {
+        font-family: 'Lobster';
+        background: #89023e;
+        color: white;
+        line-height: 2em;
+        font-size: 1em;
+        text-align: center;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .grid {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+       grid-gap:5px;
+    }
+    .alig {
+        padding: 5px;
+        border: 5px white dotted;
+        background: #ffd9da;
+        border-radius: 5px;
+        width: 250px;
+    }
+    .cont {
+        border: dotted 5px #89023e;
+        border-radius: 5px;
+        padding: 5px;
+        width: 250px;
+    }
+    .spa {
+        padding: 5px;
+        border: 5px white dotted;
+        background: #ffd9da;
+        border-radius: 5px;
+        width: 250px;
+    }
+    .nam1 {
+        font-family: 'Dancing Script', serif;
+        font-size: 20px;
+    }
+    .nam2 {
+        font-family: 'Abril Fatface', serif;
+        font-size: 15px;
+    }
+    .link {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        color: #e6bc00;
+    }
+    .img1, .img3 {
+        border: solid 1px #89023e;
+        width:245px;
+    }
+    .img {
+        width: 245px;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+    .nam12 {
+        font-size: 20px;
+        font-family: 'Dancing Script', serif;
+    }
+    .nam11 {
+        font: size 15px;
+        text-align: center;
+        font-family: 'Dancing Script', serif;
+    }
+    footer {
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        color: white;
+        background: #89023e;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        }
