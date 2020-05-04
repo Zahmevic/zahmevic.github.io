@@ -1,20 +1,32 @@
 @media only screen and (min-width: 32.5em){
 header {
     font-size: 30px;
+    color: white;
+    background-color: #89023e;
+border-radius: 10px;
+font-family: 'Lobster', serif;
 }
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+    }
 h2 {
     font-size: 40px;
+    border-bottom: solid 1px #89023e;
+font-family: 'Dancing Script', serif;
 }
 img {
     width: 150px;
     height: auto;
     float: right;
-    margin-top: -70px;
+    margin-top: 20px;
     margin-right: 20px;
     box-shadow:0 0 15px 0 #530113;
     }
     .list {
         font-size: 20px;
+        font-family: 'Raleway', sans-serif;
     }
     body {
         margin: auto;
@@ -22,5 +34,17 @@ img {
         }
     footer {
         font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+text-align: center;
+color: white;
+background-color: #89023e;
+border-radius: 10px;
     }
+        a {
+        color: #ea638c;
+        }
+        #date { color: yellow;}
+        span {
+            font-weight: 700;
+        }
     }
