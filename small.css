@@ -41,15 +41,17 @@ margin-right: 100px;
 margin-left: 100px;
 }
 a {
-color: #fce302;
+color: #ffc7d8;
 }
 .list {
 font-family: 'Raleway', sans-serif;
-font-size: 10px;
+font-size: 15px;
 }
-
-#date { color: yellow;}
-span {
-    font-weight: 700;
-}
+#date { color: #f1c80d;}
+        span {
+            font-weight: 700;
+        }
+        .link {
+            color: #f1c80d;
+        }
 }

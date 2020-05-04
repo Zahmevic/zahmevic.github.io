@@ -41,10 +41,14 @@ background-color: #89023e;
 border-radius: 10px;
     }
     a {
-        color: #fce302;
+        color: #ffc7d8;
+        font-style: oblique;
         }
-        #date { color: yellow;}
+        #date { color: #f1c80d;}
         span {
             font-weight: 700;
+        }
+        .link {
+            color: #f1c80d;
         }
     }
