@@ -1,0 +1,57 @@
+@media only screen and (min-width:37.5em) {
+body {
+    max-width: 600px;
+}
+nav {
+    border-radius: 10px;
+}
+nav a {
+    font-size: 23px;
+}
+main {
+    margin: 20 20 20 20;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 23px;
+}
+p {
+    font-size: 18px;
+}
+.logo {
+    width: 580px;
+    height:530px;
+}
+.footer {
+    border-radius: 10px;
+}
+.nav {
+    padding: 20px;
+}
+/*target audience*/
+.sec1 .sec2 {
+border-radius: 10px;
+border: solid 4px #89023e;
+}
+.img2 {
+    width:580px;
+    height: 560px;
+}
+/*color scheme*/
+.img3 {
+    width: 580px;
+}
+table {
+    font-size: 20px;
+    border: 4px;
+}
+td {
+    border-top: 2px;
+}
+/*typography*/
+.table2 {
+    font-size: 20px;
+}
+}

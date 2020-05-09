@@ -1,0 +1,57 @@
+@media only screen and (min-width:60em) {
+    body {
+        max-width: 960px;
+    }
+    nav {
+        border-radius: 15px;
+    }
+    nav a {
+        font-size: 30px;
+    }
+    main {
+        margin: 20 20 20 20;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .logo {
+        width: 840px;
+        height:790px;
+    }
+    .footer {
+        border-radius: 15px;
+    }
+    .nav {
+        padding: 25px;
+    }
+    /*target audience*/
+    .sec1 .sec2 {
+    border-radius: 15px;
+    border: solid 6px #89023e;
+    }
+    .img2 {
+        width:940px;
+        height: 820px;
+    }
+    /*color scheme*/
+    .img3 {
+        width: 940px;
+    }
+    table {
+        font-size: 25px;
+        border: 6px;
+    }
+    td {
+        border-top: 4px;
+    }
+    /*typography*/
+    .table2 {
+        font-size: 25px;
+    }
+    }

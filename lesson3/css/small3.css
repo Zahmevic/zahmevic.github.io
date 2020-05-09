@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+/*for the weather web site*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body {
+    max-width: 300px;
+    margin: 0 auto;
+}
+main {
+    margin:0;
+}
+nav ul {display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;}
+nav ul li {flex: 1 1 100%}
+nav {
+    background-color: #89023e;
+    text-align: center;
+    box-shadow: #ffd9da;
+    border-radius: 5px;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lobster';
+}
+nav a:hover {
+    background-color:#ffd9da;
+    color:#89023e;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Lobster';
+    font-size: 25px;
+}
+h2 {
+    font-family: 'Abril Fatface';
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+.logo {
+    width: 300px;
+    height:150px;
+}
+
+footer {
+    background-color: #89023e;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+}
+.link {
+    font-family: 'Raleway', sans-serif;
+    color: #ffd9da;
+}
+
+.nav {
+    padding: 15px;
+}
+.date {
+    color: #e1b915;
+}
+/*target audience*/
+ul {
+    font-family: 'Raleway';
+}
+
+.sec1 {
+    display:block;
+    text-align: left;
+    background-color: #ffd9da;
+    border: solid 2px #89023e;
+    border-radius: 5px;
+}
+
+.sec2 {
+    display: block;
+    text-align: right;
+    background-color: #ffd9da;
+    border: solid 2px #89023e;
+    border-radius: 5px;
+}
+
+.img2 {
+    width: 270px;
+    height:250px;
+}
+
+/*color scheme*/
+
+.img3 {
+    width: 300px;
+}
+
+table {
+    border: solid 2px #89023e;
+    font-size: 13px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+}
+td {
+    border-top: solid 1px black;
+}
+.principal {
+    background-color: #FFFFFF;
+}
+.second {
+    background-color: #17171A;
+    color: white;
+}
+.third {background-color: #000017;
+color: white;}
+.fourth {
+    background-color: #e1b915;
+}
+.fifth {
+    background-color: #3A063D;
+    color: white;
+}
+
+/*typography*/
+/*heading 1*/
+.bree {
+    font-family: 'Bree Serif';}
+.bree25 { /*movile*/
+    font-family: 'Bree Serif';
+    font-size: 25px;
+}
+.bree30 { /*tablet*/
+    font-family: 'Bree Serif';
+    font-size: 30px;
+}
+.bree35 {
+  /*desktop*/
+  font-family: 'Bree Serif';
+  font-size: 35px;  
+}
+/*heading 2*/
+.bree25 { /*desktop*/
+    font-family: 'Bree Serif';
+    font-size: 25px;
+}
+.bree23 { /*tablet*/
+font-family: 'Bree Serif';
+font-size: 23px;
+}
+.bree20 { /*movile*/
+    font-family: 'Bree Serif';
+    font-size: 20px;  
+}
+
+.rubik {
+    font-family: 'Rubik';
+}
+/*paragraph*/
+.rubik20 {
+    font-family: 'Rubik';
+    font-size: 20px;
+}
+.rubik18 {
+    font-family: 'Rubik';
+    font-size: 18px;
+}
+.rubik15 {
+    font-family: 'Rubik';
+    font-size: 15px;
+}
+th {
+    background-color: #ffd9da;
+}
+.table2 {
+    font-family: 'Raleway';
+    font-size: 12px;
+
+}
