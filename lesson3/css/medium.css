@@ -31,12 +31,14 @@ p {
     padding: 20px;
 }
 /*target audience*/
-.sec1 .sec2 {
+.sec1, .sec2 {
 border-radius: 10px;
-border: solid 4px #89023e;
+border: dotted 4px #89023e;
+display: flex;
+        text-align: left;
 }
 .img2 {
-    width:180px;
+    width:200px;
     height: 160px;
 }
 .img21 {
