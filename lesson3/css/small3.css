@@ -83,20 +83,20 @@ ul {
 }
 
 .sec1 {
-    display:block;
+    display:flex;
     text-align: center;
     background-color: #ffd9da;
-    border: solid 2px #89023e;
+    border: dotted 2px #89023e;
     border-radius: 5px;
     padding-right: 10px;
     padding-top: 5px;
 }
 
 .sec2 {
-    display: block;
+    display: flex;
     text-align: center;
     background-color: #ffd9da;
-    border: solid 2px #89023e;
+    border: dotted 2px #89023e;
     border-radius: 5px;
     padding-right: 10px;
     padding-top: 5px;}
