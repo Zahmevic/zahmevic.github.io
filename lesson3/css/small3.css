@@ -83,7 +83,6 @@ ul {
 }
 
 .sec1 {
-    display:flex;
     text-align: center;
     background-color: #ffd9da;
     border: dotted 2px #89023e;
@@ -93,7 +92,6 @@ ul {
 }
 
 .sec2 {
-    display: flex;
     text-align: center;
     background-color: #ffd9da;
     border: dotted 2px #89023e;
@@ -102,8 +100,8 @@ ul {
     padding-top: 5px;}
 
 .img2 {
-    width:120px;
-    height: 130px;
+    width:140px;
+    height: 140px;
 }
 .img21 {
     width:120px;
