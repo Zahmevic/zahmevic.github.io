@@ -1,0 +1,47 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 23px;
+    }
+    
+    p, .contentbox {
+        font-size: 18px;
+    }
+    
+    .contentbox {
+        margin: 18px;
+        padding: 13px;
+        border: 3px;
+    }
+img {
+width: 200px;
+}
+.title {
+color: #000037;
+margin-bottom: 0;
+font-size: 20px;
+}
+.slogan {
+    margin-top: 0;
+    color: #3a063d;
+}
+main {
+    margin: 0 auto;
+    max-width: 400px;
+}
+footer {
+    font-family: 'Rubik';
+font-size: 15px;
+text-align: center;
+background-color: #3a063d;
+color: #e1b915;
+display: block;
+}
+}

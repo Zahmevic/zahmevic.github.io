@@ -1,0 +1,75 @@
+@media only screen and (min-width: 60em) {
+    body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    p, .contentbox {
+        font-size: 20px;
+    }
+    
+    .contentbox {
+        margin: 20px;
+        padding: 15px;
+        border: 4px;
+    }
+    nav {
+        text-align: center;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+    }
+    nav ul {
+        margin: 2%;
+        padding: 5px;
+    }
+    nav ul.hide {display:block;}
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+}
+img {
+width: 400px;
+margin: 20px;
+}
+
+.title {
+font-size: 40px;
+color: #000037;
+margin-bottom: 0;
+}
+.slogan {
+    margin-top: 0;
+    color: #3a063d;
+    text-align: center;
+}
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+footer {
+    font-family: 'Rubik';
+font-size: 18px;
+text-align: center;
+background-color: #000037;
+border-radius: 5px;
+color: #e1b915;
+display: block;
+}
+}

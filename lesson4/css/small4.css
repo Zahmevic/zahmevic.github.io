@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body {
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Bree Serif';
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Bree Serif';
+    font-size: 20px;
+}
+
+p, .contentbox {
+    font-family: 'Rubik';
+    font-size: 15px;
+}
+
+.contentbox {
+    border: solid 2px #000037;
+    margin: 10px;
+    background-color: #3A063D;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #000037;
+    font-family: 'Bree Serif';
+    font-size: 18px;
+
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    color: #E1B915;
+    font-size: 1.6rem;
+}
+nav ul {
+    list-style-type: none;
+padding: 0;
+margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid #E1B915;
+}
+
+  .menu {
+    color: #E1B915;
+  }
+  nav ul li.menu a {
+      background-color: #3a063d;
+    color: #FFFFFF;
+}
+nav ul li a:hover {
+    background-color: #FFFFFF;
+}
+nav ul.hide {display:none; }
+  img {
+    width: 100px;
+    }
+    section {
+        display: inline-block;
+        text-align: center;
+    }
+    .title {
+    font-size: 20px;
+    color: #000037;
+    margin-bottom: 0;
+    }
+    .slogan {
+        margin-top: 0;
+        color: #3a063d;
+    }
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+content:"";
+display: table;
+clear: both;
+    }
