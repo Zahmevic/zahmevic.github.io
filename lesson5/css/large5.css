@@ -80,3 +80,20 @@
         p {
             font-size: 20px;
         }
+
+        .square {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            background: radial-gradient(#eee, #E1B915);
+            border: 1px solid #000037;
+            padding: .5rem;
+            box-shadow: 0 0 30px #000037;
+            opacity: .8;
+        }
+        .weather {
+            font-size: 20px;
+        }
+        .list {
+            font-size: 15px;
+        }
