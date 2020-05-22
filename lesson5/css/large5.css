@@ -1,0 +1,82 @@
+@media only screen and (min-width: 60em) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    /*header*/
+    .title {
+        font-size: 50px;
+        grid-row: 1;
+        line-height: 200px;
+    }
+    .slogan {
+        grid-row: 1;    
+        font-size: 25px;
+        line-height: 50px;
+    }
+    img {
+        width: 450px;
+    }
+    /*navigation bar*/
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    
+        /*main*/
+    main {
+        margin: 50px;
+    }
+        h1 {
+        font-size: 35px;
+        }
+        h2 {
+        font-size: 30px;
+        text-align: center;
+        }
+
+        .contentbox {
+            border: dashed 1px #000037;
+            background-color: #3a063d;
+            color: #FFFFFF;
+            margin: 10px;
+            font-family: 'Rubik';
+            font-size: 25px;
+            padding: 10px;
+        }
+    /*footer*/
+        footer {
+            font-size: 18px;
+        }
+
+        /*new added*/
+        .hero {
+            width: 800px;
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        .img2 {
+            width: 800px;
+            height: 300px;
+        }
+        .contact {
+            width: 800px;
+         height: 200px;
+        }
+        .img3 {
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+        }
+        .article {
+            width:800px;
+            height:250px;
+            margin:0 auto;
+        }
+.img4 {
+    width: 250px;
+    height:200px;
+    padding: 20px;
+}
+        p {
+            font-size: 20px;
+        }
