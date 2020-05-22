@@ -139,7 +139,7 @@ font-family: 'Rubik';
  margin: 0 auto;
 }
 .img3 {
-    float: left;
+    
     width: 150px;
     height: 150px;
     padding: 20px;
@@ -150,7 +150,7 @@ font-family: 'Rubik';
     margin:0 auto;
 }
 .img4 {
-float: right;
+
 width: 150px;
 height:120px;
 padding: 20px;
