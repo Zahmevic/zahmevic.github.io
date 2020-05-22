@@ -65,9 +65,7 @@
         .img3 {
             width: 150px;
             height: 150px;
-            padding: 20px;
-            float: left;
-        }
+            padding: 20px;  
         .article {
             width:800px;
             height:250px;
@@ -76,7 +74,6 @@
 .img4 {
     width: 250px;
     height:200px;
-    padding: 20px;
     float: right;
 }
         p {
@@ -99,3 +96,13 @@
         .list {
             font-size: 15px;
         }
+
+        table {
+            width: 700px;
+            }
+            thead {
+                font-size: 25px;
+            }
+            .body {
+                font-size: 20px;
+            }

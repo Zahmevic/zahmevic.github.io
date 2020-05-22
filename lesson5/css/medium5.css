@@ -93,12 +93,10 @@
         }
         .contact {
             width: 600px;
-         height: 200px;
         }
 
         .article {
             width:600px;
-            height:250px;
         }
         .img3 {
             float: left;
@@ -108,6 +106,7 @@
     height:200px;
     float: right;
 }
+
         p {
             font-size: 20px;
         }
@@ -129,3 +128,13 @@
             font-style: italic;
             color: #17171a;
         }
+
+        table {
+            width: 500px;
+            }
+            thead {
+                font-size: 20px;
+            }
+            .body {
+                font-size: 20px;
+            }
