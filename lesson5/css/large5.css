@@ -18,6 +18,9 @@
         width: 450px;
     }
     /*navigation bar*/
+    nav ul li {
+        font-size: 18px;
+    }
     nav ul li a {
         padding: .6rem 1rem;
     }
