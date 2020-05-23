@@ -134,6 +134,7 @@ font-family: 'Rubik';
 }
 .contact {
     border: solid 2px #000037;
+    background-color: #E1B915;
     width: auto;
  margin: 0 auto;
 }
@@ -157,13 +158,13 @@ p {
     color: #17171a;
 }
 table {
-border: solid 2px #3a063d;
+border: solid 2px #FFFFFF;
 margin: 0 auto;
 text-align: center;
 width: 300px;
 }
 thead {
-    background-color: #3a063d;
+    background-color: #E1B915;
     color: #FFFFFF;
     font-size: 15px;
     font-family: 'Bree Serif';
@@ -173,9 +174,17 @@ thead {
     font-size: 15px;
     padding: 20px;
     text-align: center;
+    color: #FFFFFF;
 }
-
+.name {
+    color: #FFFFFF;
+}
 h6 {
     font-size: 10px;
     font-family: 'Rubik';
+    color: #17171a;
+}
+.day {
+    background-color: #000037;
+    padding: 20px;
 }
