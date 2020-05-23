@@ -63,9 +63,9 @@
          height: 200px;
         }
         .img3 {
-            width: 150px;
-            height: 150px;
-            padding: 20px;  
+            width: 200px;
+            height: 200px; 
+        } 
         .article {
             width:800px;
             height:250px;
@@ -79,7 +79,9 @@
         p {
             font-size: 20px;
         }
-
+.p {
+    width: 600px;
+}
         .square {
             position: absolute;
             top: 10px;

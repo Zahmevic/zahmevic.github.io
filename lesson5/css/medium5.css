@@ -88,27 +88,34 @@
             font-size: 20px;
         }
         .img2 {
-            width: 600px;
+            width: 550px;
             height: 250px;
         }
         .contact {
-            width: 600px;
-        }
-
-        .article {
-            width:600px;
+            display: flex;
+            flex-direction: row-reverse;
+            width: 550px;
+            padding: 20px;
         }
         .img3 {
             float: left;
         }
-.img4 {
-    width: 250px;
-    height:200px;
-    float: right;
-}
-
+        .article {
+            display: flex;
+            flex-direction: row;
+            padding:20px;
+            width:550px;
+        }
+        .img4 {
+            width: 200px;
+            height:180px;
+            float: right;
+        }
         p {
             font-size: 20px;
+        }
+        .p {
+            width: 350px;
         }
         .square {
             position: absolute;
