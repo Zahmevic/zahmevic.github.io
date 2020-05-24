@@ -147,3 +147,7 @@
             .body {
                 font-size: 20px;
             }
+.event {
+    font-size: 20px;
+    width: 500px;
+}

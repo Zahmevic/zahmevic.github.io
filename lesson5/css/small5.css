@@ -131,7 +131,7 @@ padding: 20px;
     color: #17171a;
 }
 .img2 {
-    width: 380px;
+    width: 250px;
     height: 150px;
 }
 .contact {
@@ -163,7 +163,7 @@ table {
 border: solid 2px #FFFFFF;
 margin: 0 auto;
 text-align: center;
-width: 300px;
+width: 200px;
 }
 thead {
     background-color: #E1B915;
@@ -189,4 +189,14 @@ h6 {
 .day {
     background-color: #000037;
     padding: 20px;
+}
+
+.event {
+    display: none;
+    margin: 0 auto;
+padding: 20px;
+width: 200px;
+    font-family: 'Bree Serif';
+    font-size: 10px;
+    background: radial-gradient(#eee, #E1B915);
 }
