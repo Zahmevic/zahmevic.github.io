@@ -172,6 +172,7 @@ thead {
     font-family: 'Bree Serif';
 }
 .body {
+    display: none;
     font-family: 'Rubik';
     font-size: 15px;
     padding: 20px;
