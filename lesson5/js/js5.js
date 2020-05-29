@@ -51,7 +51,7 @@ function toggleMenu () {
 //Friday notification
 let d = new Date ();
 const banner = document.getElementById('event');
-if(d.getDay == 5) {
+if(d.getDay () == 5) {
     banner.style.display = 'block';
 }
 else {
