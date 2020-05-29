@@ -41,3 +41,11 @@ try {
 } catch (e) {
 }
 let oLastModif = new Date(document.lastModified);
+
+WebFont.load({
+    google: {
+      families: [
+         'Tenali Ramakrishna'
+      ]
+    }
+  });

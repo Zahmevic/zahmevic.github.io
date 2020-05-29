@@ -57,3 +57,5 @@ if(d.getDay () == 5) {
 else {
     banner.style.display = 'none';
 }
+
+//......
