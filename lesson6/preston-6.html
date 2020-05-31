@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/large6.css">
     </head>
     <body>
-        <div class="event" id="event">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+        <div class="event" ><span id="event">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</span><script src="js/pan.js"></script></div>
         <header>
 <img src="images/weather2.png" alt="logo">
 <h1 class="title">WeathCloud.com.mx</h1>
@@ -22,7 +22,7 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
         <li><a class="menu" href="index.html">Home</a></li>
-        <li><a class="menu" class="active" href="preston-6.html">Preston</a></li>
+        <li><a class="active" href="preston-6.html">Preston</a></li>
         <li><a class="menu" href="preston-6.html">Soda Springs</a></li>
         <li><a class="menu" href="">Fish Haven</a></li>
         <li><a class="menu" href="">Storm Center</a></li>
@@ -32,16 +32,18 @@
         <main>
 <h2> Preston Idaho</h2>
 <div class="hero">
-    <img class="img2" srcset="images/wdd230_300w.jpg 300w,
-    images/wdd230_600w.jpg 600w,
-    images/wdd230_800w.jpg 800w;" alt="banner">
+    <picture class="img2">
+        <source class="img2" srcset="images/wdd-large.jpg" media="(min-width: 600px)"/>
+        <source class="img2" srcset="images/wdd-medium.jpg" media="(min-width: 400px)"/>
+        <img class="img2" src="images/wdd-small.jpg" alt="clouds">
+    </picture>
 <section class="square">
     <h2 class="weather">Weather Summary</h2>
     <p class="list">Currently: <span id="currently">Sunny</span></p>
-    <p class="list">Temperature: <span id="temperature">76 °F</span></p>
+    <p class="list">Temperature: <span id="t">76 °F</span></p>
     <p class="list">Humidity: <span id="humidity">69%</span></p>
     <p class="list">Precipitation: <span id="precipitation">0 inches</span></p>
-    <p class="list">Wind Speed: <span id="wind">5 mph</span></p>
+    <p class="list">Wind Speed: <span id="s">5 mph</span></p>
 </section>
 </div>
 <div class="day"><h2 class="name">5 day forecast</h2>
@@ -81,6 +83,6 @@
 &copy; WeathCloud.com.mx | Attributions | Melissa Zahori de Vazquez Molina<br>
 <span class="date" id="date"></span><script src="js/js6.js"></script>
         </footer>
-        <script src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"> </script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     </body>
 </html>

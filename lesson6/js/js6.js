@@ -49,11 +49,4 @@ function toggleMenu () {
 }
 
 
-//......
-WebFont.load({
-    google: {
-      families: [
-         'Rubik'
-      ]
-    }
-  });
+

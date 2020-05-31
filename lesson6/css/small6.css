@@ -36,6 +36,9 @@ img {
     width: 100px;
 }
 /*navigation bar*/
+
+    
+
 nav {
     background-color: #000037;
     font-family: 'Bree Serif';
@@ -50,6 +53,7 @@ nav button {
     font-size: 1.6rem;
 }
 nav ul {
+    color: #FFFFFF;
     list-style-type: none;
 padding: 0;
 margin: 0;
@@ -64,6 +68,10 @@ nav ul li a {
 
   .menu {
     color: #E1B915;
+  }
+  .active {
+      background-color: #3a063d;
+      color: #FFFFFF;
   }
 
 nav ul li a:hover {
@@ -130,8 +138,12 @@ padding: 20px;
     color: #17171a;
 }
 .img2 {
-    width: 250px;
-    height: 150px;
+    width: 360px;
+    height:200px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: outset 1px #17171a;
+    box-shadow: 10px 10px 15px 5px #17171a;
 }
 .contact {
     border: solid 2px #000037;
@@ -189,14 +201,11 @@ h6 {
 .day {
     background-color: #000037;
     padding: 20px;
+    margin: 20px;
 }
-
 .event {
-    display: none;
-    margin: 0 auto;
-padding: 20px;
-width: 200px;
+    background-color: #17171a;
+    color: #FFFFFF; 
+    text-align: center;
     font-family: 'Bree Serif';
-    font-size: 10px;
-    background: radial-gradient(#eee, #E1B915);
 }

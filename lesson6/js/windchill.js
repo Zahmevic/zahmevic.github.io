@@ -1,4 +1,4 @@
-LaTeX: f=35.74+0.6215\:t-35.75\:s^{0.16}+0.4275\:t\:s^{0.16}
+
 
 function windchill () {
     let t = parseFloat(document.getElementById("temperature").textContent);
@@ -10,6 +10,8 @@ function windchill () {
 
 function weath(t,s){
     if (t >= 50){
-        
+        var f = (35.74 + 0.6215*t) - (35.75*s^{0.16}) + (0.4275*t*s^{0.16}) ;
     }
+
+    document.getElementById("weath").innerHTML = f;
 }
