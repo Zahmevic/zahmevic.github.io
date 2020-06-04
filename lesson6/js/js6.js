@@ -43,7 +43,16 @@ try {
 let oLastModif = new Date(document.lastModified);
 
 //hamburguer menu
-function toggleMenu () {
+function toggleMenu() {
 
     document.getElementById("primaryNav").classList.toggle("hide");
 }
+
+//......
+WebFont.load({
+    google: {
+      families: [
+         'Rubik'
+      ]
+    }
+  });

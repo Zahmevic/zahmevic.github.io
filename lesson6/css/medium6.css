@@ -8,6 +8,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 100px 100px;
+        padding: 0;
+        border-radius: 10px;
+        box-shadow: inset 5px 5px 15px 5px #000037, inset -5px -5px 15px 5px #000037;
     }
     
     .title {
@@ -37,7 +40,9 @@
         width: 300px;
     }
     /*navigation bar*/
-
+nav {
+    border-radius: 10px;
+}
     nav button {
         display: none;
     }
@@ -56,6 +61,8 @@
         /*main*/
     main {
         margin: 20px;
+        border-radius: 10px;
+        box-shadow: inset 5px 5px 20px 5px #000037, inset -5px -5px 20px 5px #000037;
     }
         h1 {
             font-family: 'Bree Serif';
@@ -83,16 +90,14 @@
     font-family: 'Rubik';
             font-size: 18px;
             text-align: center;
+            border-radius: 10px;
         }
         /*new added*/
         .hero {
             width: 500px;
             font-size: 20px;
         }
-        .img2 {
-            width: 600px;
-            height: 400px;
-        }
+
         .contact {
             display: flex;
             flex-direction: row-reverse;

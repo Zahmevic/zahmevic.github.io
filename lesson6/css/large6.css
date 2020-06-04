@@ -1,9 +1,13 @@
 @media only screen and (min-width: 60em) {
     body {
-        max-width: 1024px;
         margin: 0 auto;
+        max-width: 1024px;
     }
     /*header*/
+    header {
+        border-radius: 15px;
+        box-shadow: inset 5px 5px 20px 5px #000037, inset -5px -5px 20px 5px #000037;
+    }
     .title {
         font-size: 50px;
         grid-row: 1;
@@ -18,6 +22,9 @@
         width: 450px;
     }
     /*navigation bar*/
+    nav {
+        border-radius: 15px;
+    }
     nav ul li {
         font-size: 18px;
     }
@@ -28,6 +35,8 @@
         /*main*/
     main {
         margin: 50px;
+        border-radius: 15px;
+        box-shadow: inset 5px 5px 30px 5px #000037, inset -5px -5px 30px 5px #000037;
     }
         h1 {
         font-size: 35px;
@@ -49,6 +58,7 @@
     /*footer*/
         footer {
             font-size: 18px;
+            border-radius: 15px;
         }
 
         /*new added*/
@@ -59,9 +69,6 @@
         } 
         .img2 {
             position: relative;
-            width: 900px;
-            height: 500px;
-
         }
         .contact {
             width: 800px;
