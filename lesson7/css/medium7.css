@@ -67,7 +67,14 @@ nav {
             font-family: 'Bree Serif';
         font-size: 30px;
         }
-        
+        .gallery {
+            padding: 15px;
+            filter: blur(0em);
+            transition: filter 0.5s;
+        }
+        .gallery[data-src] {
+        filter: blur(0.2em);
+        }
     /*footer*/
         footer {
     background-color: #000037;

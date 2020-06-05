@@ -41,7 +41,14 @@
         h1 {
         font-size: 35px;
         }
-        
+        .gallery {
+            padding: 15px;
+            filter: blur(0em);
+            transition: filter 0.5s;
+        }
+        .gallery[data-src] {
+        filter: blur(0.2em);
+        }    
     /*footer*/
         footer {
             font-size: 18px;
