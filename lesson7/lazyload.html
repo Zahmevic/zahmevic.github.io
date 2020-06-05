@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>WeathCloud Lazy Loading</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Lazy Loading example">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize7.css">
+        <link type="text/css" rel="stylesheet" href="css/small7.css">
+        <link rel="stylesheet" href="css/medium7.css">
+        <link rel="stylesheet" href="css/large7.css">
+    </head>
+    <body background="images/mountain.jpg">
+        <div class="event" ><span id="event">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</span><script src="js/pan7.js"></script></div>
+        <header>
+<img class="img" src="images/weather2.png" alt="logo">
+<h1 class="title">WeathCloud.com.mx</h1>
+<p class="slogan">The Weather of the Day</p>
+</header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a class="menu" href="index.html">Home</a></li>
+        <li><a class="menu" href="lesson6/preston-6.html">Preston</a></li>
+        <li><a class="menu" href="">Soda Springs</a></li>
+        <li><a class="menu" href="">Fish Haven</a></li>
+        <li><a class="menu" href="">Storm Center</a></li>
+        <li><a class="menu" href="gallery-7.html">Gallery</a></li>
+    </ul>
+</nav>
+        <main>
+<h1>Lightning Types</h1>
+<picture><img class="gallery" src="images/placeholder.png" data-src="http://placeimg.com/300/400/nature" alt="nature"></picture>
+<picture><img class="gallery" src="images/placeholder.png" data-src="http://placeimg.com/300/400/nature/sepia" alt="sepia"></picture>
+<picture><img class="gallery" src="images/placeholder.png" data-src="http://placeimg.com/300/400/animals" alt="animal"></picture>
+<picture><img class="gallery" src="images/placeholder.png" data-src="http://placeimg.com/300/400/nature/grayscale" alt="grayscale"></picture>
+<picture><img class="gallery" src="images/placeholder.png" data-src="http://placeimg.com/300/400/animals/grayscale" alt="animals"></picture>
+<picture><img class="gallery" src="images/placeholder.png" data-src="http://placeimg.com/300/400/nature" alt="nature"></picture>
+
+
+        </main>
+        <footer>
+&copy; WeathCloud.com.mx | Attributions | Melissa Zahori de Vazquez Molina<br>
+<span class="date" id="date"></span><script src="js/java7.js"></script>
+        </footer>
+        <script src ="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/lazy.js"></script>
+    </body>
+</html>

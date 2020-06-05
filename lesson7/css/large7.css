@@ -1,0 +1,51 @@
+@media only screen and (min-width: 60em) {
+    body {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+    /*header*/
+    header {
+        border-radius: 15px;
+        box-shadow: inset 5px 5px 20px 5px #000037, inset -5px -5px 20px 5px #000037;
+    }
+    .title {
+        font-size: 50px;
+        grid-row: 1;
+        line-height: 200px;
+    }
+    .slogan {
+        grid-row: 1;    
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .img {
+        width: 450px;
+    }
+    /*navigation bar*/
+    nav {
+        border-radius: 15px;
+    }
+    nav ul li {
+        font-size: 18px;
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    
+        /*main*/
+    main {
+        margin: 50px;
+        border-radius: 15px;
+        box-shadow: inset 5px 5px 30px 5px #000037, inset -5px -5px 30px 5px #000037;
+    }
+        h1 {
+        font-size: 35px;
+        }
+        
+    /*footer*/
+        footer {
+            font-size: 18px;
+            border-radius: 15px;
+        }
+
+        

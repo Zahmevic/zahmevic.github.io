@@ -1,0 +1,80 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        margin: 0 auto;
+        max-width: 650px;
+    }
+    /*header*/
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        padding: 0;
+        border-radius: 10px;
+        box-shadow: inset 5px 5px 15px 5px #000037, inset -5px -5px 15px 5px #000037;
+    }
+    
+    .title {
+        grid-column: 2;
+        grid-row: 2;
+        font-family: 'Bree Serif';
+        font-size: 25px;
+        margin-bottom: 10em;
+        padding: 0px;
+        margin-top: 30px;
+        color: #3a063d;
+        line-height: 10px;
+    }
+    .slogan {
+        grid-row:2;
+        grid-column: 2;
+        font-family: 'Rubik';
+        font-size: 10px;
+        margin-top: 6em;
+        text-align: center;
+        color: #000037;
+        line-height: 10px;
+    }
+    
+    .img {
+        grid-row: 2;
+        width: 300px;
+    }
+    /*navigation bar*/
+nav {
+    border-radius: 10px;
+}
+    nav button {
+        display: none;
+    }
+    nav ul li {
+        padding: 20px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+
+    nav ul.hide {display: block;}
+        /*main*/
+    main {
+     border-radius: 10px;
+     box-shadow: inset 5px 5px 20px 5px #000037, inset -5px -5px 20px 5px #000037;
+    }
+        h1 {
+            font-family: 'Bree Serif';
+        font-size: 30px;
+        }
+        
+    /*footer*/
+        footer {
+    background-color: #000037;
+    color: #E1B915;
+    font-family: 'Rubik';
+            font-size: 18px;
+            text-align: center;
+            border-radius: 10px;
+        }
+       
