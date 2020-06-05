@@ -42,8 +42,3 @@ try {
 }
 let oLastModif = new Date(document.lastModified);
 
-//hamburguer menu
-function toggleMenu() {
-
-    document.getElementById("primaryNav").classList.toggle("hide");
-}
