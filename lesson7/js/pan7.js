@@ -1,9 +1,9 @@
 //Friday notification
-let d = new Date();
+let p = new Date();
 
 const banner = document.getElementById('event');
 
-if(d.getDay () == 5) {
+if(p.getDay () == 5) {
     banner.style.display = 'block';
 }
 else {
