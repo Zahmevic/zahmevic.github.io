@@ -78,7 +78,7 @@ nav {
         .gallery[data-src] {
         filter: blur(0.2em);
         }
-        p {
+        .type {
             font-size: 20px;
         }
     .event {
