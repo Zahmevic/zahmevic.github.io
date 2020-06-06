@@ -153,10 +153,10 @@ border-radius: 5px;
     border: solid 2px #000037;
     background-color: #E1B915;
     width: auto;
- margin: 10px 10px 10px 10px;
+margin: 20px;
 }
 .img3 {
-    
+
     width: 150px;
     height: 150px;
 }
@@ -212,6 +212,9 @@ h6 {
     color: #FFFFFF; 
     text-align: center;
     font-family: 'Bree Serif';
+}
+.face {
+    width: 30px;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

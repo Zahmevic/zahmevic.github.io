@@ -72,16 +72,15 @@ nav {
             grid-template-columns: 1fr 1fr;
         }
         .gallery {
-            width: 300px;
-    height: 400px;
-            padding: 15px;
             filter: blur(0em);
             transition: filter 0.5s;
         }
         .gallery[data-src] {
         filter: blur(0.2em);
         }
-
+        p {
+            font-size: 20px;
+        }
     .event {
         font-size: 20px;
     }
