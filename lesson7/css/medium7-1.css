@@ -7,7 +7,7 @@
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px;
+        grid-template-rows: 100px;
         padding: 0;
         border-radius: 10px;
         box-shadow: inset 5px 5px 15px 5px #000037, inset -5px -5px 15px 5px #000037;
@@ -15,7 +15,7 @@
     
     .title {
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 1;
         font-family: 'Bree Serif';
         font-size: 25px;
         margin-bottom: 10em;
@@ -25,19 +25,20 @@
         line-height: 10px;
     }
     .slogan {
-        grid-row:2;
+        grid-row:1;
         grid-column: 2;
         font-family: 'Rubik';
-        font-size: 10px;
-        margin-top: 6em;
+        font-size: 20px;
+        margin-top: 3em;
         text-align: center;
         color: #000037;
         line-height: 10px;
     }
     
     .img {
-        grid-row: 2;
+        grid-row: 1;
         width: 300px;
+        margin-top: 30px;
     }
     /*navigation bar*/
 nav {
@@ -47,7 +48,6 @@ nav {
         display: none;
     }
     nav ul li {
-        padding: 20px;
         display: inline-block;
         font-size: 15px;
 
