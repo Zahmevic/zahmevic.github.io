@@ -6,6 +6,8 @@
     /*header*/
     header {
         border-radius: 15px;
+        height: 150px;
+        padding: 30px 5px 0 5px;
         box-shadow: inset 5px 5px 20px 5px #000037, inset -5px -5px 20px 5px #000037;
     }
     .title {
