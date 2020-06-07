@@ -57,6 +57,9 @@
         .gallery[data-src] {
         filter: blur(0.2em);
         }  
+        .gallery:hover {
+            box-shadow: 5px 5px 15px 5px #3a063d, -5px -5px 15px 5px #3a063d;
+        }
         .event {
             font-size: 25px;
             margin: 10px;

@@ -115,9 +115,6 @@ main {
 .gallery[data-src] {
 filter: blur(0.2em);
 }
-.gallery:hover {
-    box-shadow: 5px 5px 15px 5px #3a063d, -5px -5px 15px 5px #3a063d;
-}
 .type {
     margin: -25px 20px 20px 20px;
     width: 250px;
