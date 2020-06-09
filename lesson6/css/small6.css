@@ -174,28 +174,9 @@ p {
     font-size: 15px;
     color: #17171a;
 }
-table {
-border: solid 2px #FFFFFF;
-margin: 0 auto;
-text-align: center;
-width: 200px;
-}
-thead {
-    background-color: #E1B915;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-family: 'Bree Serif';
-}
-.body {
-    display: none;
-    font-family: 'Rubik';
-    font-size: 15px;
-    padding: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
+
 .name {
-    color: #FFFFFF;
+    color: #000037;
 }
 h6 {
     font-size: 10px;
@@ -203,9 +184,36 @@ h6 {
     color: #17171a;
 }
 .day {
+    display: flex;
+    flex-flow: row wrap;
     background-color: #000037;
-    padding: 20px;
     margin: 20px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.column {
+    flex: 1 1 auto;
+}
+.head {
+    display: block;
+    text-align: center;
+    background-color: #17171a;
+    font-size: 12px;
+    font-family: 'Rubik';
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+.degree {
+    display: block;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 10px;
+}
+.icono {
+    width: 30px;
+    height: 30px;
+    align-items: center;
 }
 .event {
     background-color: #17171a;
