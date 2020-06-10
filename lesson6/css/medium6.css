@@ -101,11 +101,15 @@ nav {
         .contact {
             display: flex;
             flex-direction: row-reverse;
-            width: 550px;
+            width: 500px;
             padding: 20px;
         }
         .img3 {
             float: left;
+        }
+        .datos {
+            line-height: 40px;
+            padding: 5px;
         }
         .article {
             display: flex;

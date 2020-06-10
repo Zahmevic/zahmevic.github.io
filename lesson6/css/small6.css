@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 body {
     margin: 0 auto;
-    max-width: 1200px;
     
 }
 /*header*/
@@ -152,13 +151,22 @@ border-radius: 5px;
 .contact {
     border: solid 2px #000037;
     background-color: #E1B915;
-    width: auto;
-margin: 20px;
+    width: 320px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 40px;
 }
 .img3 {
-
-    width: 150px;
-    height: 150px;
+    margin: 50px;
+    align-items: center;
+box-shadow: 2px 2px 5px #17171a, -2px -2px 5px #17171a;
+width: 200px;
+height: 200px;
+}
+.datos {
+    font-family: 'Rubik';
+    text-align: center;
+    line-height: 30px;
 }
 .article {
     width: auto;

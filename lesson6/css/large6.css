@@ -75,9 +75,13 @@
          height: 200px;
         }
         .img3 {
-            width: 200px;
-            height: 200px; 
+margin: 0 30px 30px 30px;
         } 
+        .datos {
+            width: 400px;
+            font-size: 25px;
+            line-height: 50px;
+        }
         .article {
             width:800px;
             height:250px;
