@@ -5,7 +5,7 @@ body {
 }
 
 table {
-    border: 2px solid rgb(0, 0, 0, .3);
+    border: 2px solid rgb(0, 0, 0, .2);
     border-collapse: collapse;
     margin: 0 auto;
     box-shadow: 10px 10px 15px #628ca6;
@@ -14,7 +14,8 @@ table {
 }
 
 th, td {
-    border: 2px solid rgb(0, 0, 0, .3);
+    border-left: 2px solid rgb(0, 0, 0, .2);
+    border-top: 2px solid rgb(0, 0, 0, .2);
     border-collapse: collapse;
     line-height: 20px;
     padding: 20px;
