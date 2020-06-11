@@ -7,37 +7,39 @@
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px;
+        grid-template-rows: 100px;
         padding: 0;
         border-radius: 10px;
         box-shadow: inset 5px 5px 15px 5px #000037, inset -5px -5px 15px 5px #000037;
+        height: 120px;
     }
     
     .title {
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 1;
         font-family: 'Bree Serif';
         font-size: 25px;
         margin-bottom: 10em;
         padding: 0px;
-        margin-top: 30px;
+        margin-top: 60px;
         color: #3a063d;
         line-height: 10px;
     }
     .slogan {
-        grid-row:2;
+        grid-row:1;
         grid-column: 2;
         font-family: 'Rubik';
         font-size: 10px;
-        margin-top: 6em;
+        margin-top: 80px;
         text-align: center;
         color: #000037;
         line-height: 10px;
     }
     
-    img {
-        grid-row: 2;
+    #logo {
+        grid-row: 1;
         width: 300px;
+        margin-top: 10px;
     }
     /*navigation bar*/
 nav {

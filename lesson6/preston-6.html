@@ -14,7 +14,7 @@
     <body background="images/mountain.jpg">
         <div class="event" ><span id="event">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</span><script src="js/pan.js"></script></div>
         <header>
-<img src="images/weather2.png" alt="logo">
+<img id="logo" src="images/weather2.png" alt="logo">
 <h1 class="title">WeathCloud.com.mx</h1>
 <p class="slogan">The Weather of the Day</p>
 </header>
@@ -32,8 +32,9 @@
         <main>
 <h2> Preston Idaho</h2>
 <div class="hero">
-
-    <img class="img2" src="images/large.jpg" alt="banner">
+<figure class="photo">
+    <img src="images/original.jpeg" sizes="60vw" alt="original" srcset="images/photo1.jpg 300w, images/photo2.jpg 580w, images/photo3.jpg 700w">
+</figure>
 <section class="square">
     <h2 class="weather">Weather Summary</h2>
     <p class="list">Currently: <span id="currently">Sunny</span></p>

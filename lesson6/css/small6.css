@@ -8,12 +8,13 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 50px;
     background-color: white;
     border: 1px outset #000037;
     box-shadow: inset 5px 5px 10px 5px #000037, inset -5px -5px 10px 5px #000037;
     margin: 0 0 20px 0;
     border-radius: 5px;
+    height: 80px;
 }
 
 .title {
@@ -21,30 +22,27 @@ header {
     grid-row: 1;
     font-family: 'Bree Serif';
     font-size: 15px;
-    margin-bottom: 0em;
+    margin: 0 0 10px 0;
     padding: 20px;
-    margin-top: 30px;
     color: #3a063d;
 }
 .slogan {
-    grid-row:2;
+    grid-row:1;
     grid-column: 2;
     font-family: 'Rubik';
     font-size: 10px;
-    margin-top: 1.5em;
+    margin: 40px 0 10px 0;
     text-align: center;
     color: #000037;
+
 }
 
-img {
-    grid-row: 2;
-    width: 100px;
-    padding: 0 0 0 50px;
+#logo {
+    grid-row: 1;
+    padding: 20px 0 0 50px;
+    width: 50%;
 }
 /*navigation bar*/
-
-    
-
 nav {
     background-color: #000037;
     font-family: 'Bree Serif';
@@ -116,21 +114,18 @@ font-family: 'Rubik';
 padding: 20px;
 border-radius: 5px;
     }
-/*new added*/
+/*hero section*/
 .hero {
     position: relative;
     width: auto;
-    font-family: 'Rubik';
-    font-size: 20px;
     margin: 0 auto;
 }
 .square {
     position: absolute;
     top: 1px;
-	left: 10px;
+	left: 50px;
 	background: radial-gradient(#eee, #E1B915);
 	border: 1px solid #000037;
-	padding: .5rem;
 	box-shadow: 0 0 30px #000037;
     opacity: .8;
 }
@@ -142,12 +137,15 @@ border-radius: 5px;
     font-style: italic;
     color: #17171a;
 }
-.img2 {
+main figure.photo {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    border: outset 1px #17171a;
+    border: solid 1px #17171a;
     box-shadow: 10px 10px 15px 5px #17171a;
 }
+main figure.photo img {width: 100%; border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;}
+
 .contact {
     border: solid 2px #000037;
     background-color: #E1B915;
