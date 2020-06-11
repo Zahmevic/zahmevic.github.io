@@ -92,6 +92,7 @@ main {
     box-shadow: inset 5px 5px 15px 5px #000037, inset -5px -5px 15px 5px #000037;
     border-radius: 5px;
     width: auto;
+    overflow: hidden;
 }
     h1 {
         font-family: 'Bree Serif';
@@ -140,6 +141,7 @@ border-radius: 5px;
 .banner {
         border: solid 1px #17171a;
         box-shadow: 10px 10px 15px 5px #17171a;
+        width: auto;
     }
 }
 main picture.photo source {width: 100%;}
