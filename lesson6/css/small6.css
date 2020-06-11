@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 body {
     margin: 0 auto;
-    
 }
 /*header*/
 header {
@@ -92,6 +91,7 @@ main {
     border: 1px outset #000037;
     box-shadow: inset 5px 5px 15px 5px #000037, inset -5px -5px 15px 5px #000037;
     border-radius: 5px;
+    width: auto;
 }
     h1 {
         font-family: 'Bree Serif';
@@ -137,14 +137,11 @@ border-radius: 5px;
     font-style: italic;
     color: #17171a;
 }
-main figure.photo {
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+main picture.photo {
     border: solid 1px #17171a;
     box-shadow: 10px 10px 15px 5px #17171a;
 }
-main figure.photo img {width: 100%; border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;}
+main picture.photo source {width: 100%;}
 
 .contact {
     border: solid 2px #000037;

@@ -32,9 +32,11 @@
         <main>
 <h2> Preston Idaho</h2>
 <div class="hero">
-<figure class="photo">
-    <img src="images/original.jpeg" sizes="60vw" alt="original" srcset="images/photo1.jpg 300w, images/photo2.jpg 580w, images/photo3.jpg 700w">
-</figure>
+<picture class="photo">
+    <source media="(max-width:549px)" srcset="images/photo1-1.jpg">
+    <source media="(max-width:799px)" srcset="images/photo2-2.jpg">
+        <img src="images/photo3-3.jpg" alt="large">
+</picture>
 <section class="square">
     <h2 class="weather">Weather Summary</h2>
     <p class="list">Currently: <span id="currently">Sunny</span></p>
