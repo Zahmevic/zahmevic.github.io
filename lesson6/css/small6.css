@@ -137,9 +137,10 @@ border-radius: 5px;
     font-style: italic;
     color: #17171a;
 }
-main picture.photo {
-    border: solid 1px #17171a;
-    box-shadow: 10px 10px 15px 5px #17171a;
+.banner {
+        border: solid 1px #17171a;
+        box-shadow: 10px 10px 15px 5px #17171a;
+    }
 }
 main picture.photo source {width: 100%;}
 
