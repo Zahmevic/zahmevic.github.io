@@ -80,6 +80,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #FFFFFF;
+    color: #17171a;
 }
 nav ul li.active a{background-color: #3a063d; color: #FFFFFF;}
 nav ul.hide {display:none; }
@@ -93,6 +94,7 @@ main {
     border-radius: 5px;
     width: auto;
     overflow: hidden;
+    width: 90%;
 }
     h1 {
         font-family: 'Bree Serif';
@@ -115,7 +117,75 @@ font-family: 'Rubik';
 padding: 20px;
 border-radius: 5px;
     }
-
+.event {
+    background-color: #17171a;
+    color: #FFFFFF; 
+    text-align: center;
+    font-family: 'Bree Serif';
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+/*week08*/
+form {
+    font-family: 'Rubik';
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    font-family: 'Rubik';
+    border-radius: 5px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input {
+    border: solid 2px #17171a;
+    border-radius: 5px;
+    line-height: 20px;
+    box-shadow: 2px 2px #000037;
+}
+#comments {
+    width: 280px;
+    height: 250px;
+}
+#yes, #maybe, #no {
+margin-left: -90px;
+}
+.level {
+    margin-left: 20px;
+padding-left: .5em;
+}
+.button  {
+    border-radius: 10px;
+    background-color: #E1B915;
+    border: outset 2px #E1B915;
+    font-family: 'Bree Serif';
+    font-size: 30px;
+}
+fieldset {
+    width: 50%;
+    margin: auto;
+}
+/*thanks*/
+.thanks {
+    background-color: #17171a;
+    border: outset 1px #17171a;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Bree Serif';
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: inset 3px 3px 15px #FFFFFF, inset -3px -3px 15px #FFFFFF;
+    padding: 20px;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content:"";

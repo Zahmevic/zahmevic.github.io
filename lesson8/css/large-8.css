@@ -40,6 +40,7 @@
         margin: 50px;
         border-radius: 15px;
         box-shadow: inset 5px 5px 30px 5px #000037, inset -5px -5px 30px 5px #000037;
+        text-align:
     }
         h1 {
         font-size: 35px;
@@ -48,25 +49,18 @@
         font-size: 30px;
         text-align: center;
         }
-
-        .contentbox {
-            border: dashed 1px #000037;
-            background-color: #3a063d;
-            color: #FFFFFF;
-            margin: 10px;
-            font-family: 'Rubik';
-            font-size: 25px;
-            padding: 10px;
-        }
-    /*footer*/
         footer {
             font-size: 18px;
             border-radius: 15px;
         }
+    }
+    .event {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
 
-        /*new added*/
-        
-.event {
-    font-size: 25px;
-    width: 800px;
-}
+   input {
+       width: 90%;
+   }

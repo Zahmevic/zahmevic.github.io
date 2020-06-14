@@ -76,15 +76,6 @@ nav {
         text-align: center;
         }
     
-        .contentbox {
-            border: dashed 1px #000037;
-            background-color: #3a063d;
-            color: #FFFFFF;
-            margin: 10px;
-            font-family: 'Rubik';
-            font-size: 20px;
-            padding: 10px;
-        }
     /*footer*/
         footer {
     background-color: #000037;
