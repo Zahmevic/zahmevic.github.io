@@ -84,3 +84,19 @@ nav {
                     border-radius: 10px;
                 }
             }
+form fieldset {
+    width: 80%;
+    margin: 0 auto;
+}
+form label {
+    width: 80%;
+}
+input[type="radio"] {
+    margin-left: 10%;
+}
+div {
+    margin-left: 10%;
+}
+form input.submitButton {
+    margin: 2rem 6rem;
+}

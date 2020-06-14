@@ -128,10 +128,16 @@ border-radius: 5px;
 }
 /*week08 -----------------FORM*/
 form fieldset {
-    margin: 2rem 1rem;
+    margin-top: 20px;
     border: 2px solid #3a063d;
     border-radius: 5px;
     padding: .5rem 2%;
+    width: 80%;
+
+}
+form label {
+    width: 80%;
+    margin: 0 auto;
 }
 form legend {
     font-family: 'Bree Serif';
@@ -158,6 +164,9 @@ form label.top input, form label.top select {
     color: #17171a;
     width: 90%;
 }
+form select {
+    padding: .75rem;
+}
 form label.sbs {
     display: block;
     padding: .75rem 0;
@@ -173,9 +182,10 @@ form label.sbs input {
 form label.sbsD {
     font-family: 'Rubik';
     font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-form label.sbsD input {
-    display: block;
+input[type="radio"] {
     margin-top: 15px;
 }
 form textarea {
@@ -184,7 +194,8 @@ form textarea {
     font-size: 15px;
     border: 1px solid #17171a;
     border-radius: 5px;
-    margin: 10px auto;
+    margin: 15px 15px auto;
+    height: 250px;
 }
 form input.submitButton {
     border: none;
