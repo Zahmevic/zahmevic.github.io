@@ -148,6 +148,7 @@ font-family: 'Rubik';
 font-size: 15px;
 }
 form label.top input, form label.top select {
+    -webkit-appearance: none;
     display: block;
     font-family: 'Rubik';
     font-size: 15px;
@@ -195,6 +196,12 @@ form input.submitButton {
     padding: .75rem;
     margin: 0 0 2rem 2rem;
     width: 80%;
+}
+form label.top input:required {
+    border-left: #3a063d solid 6px;
+}
+form label.top input:required:valid {
+    border-left: #E1B915 solid 6px;
 }
 /*thanks*/
 .thanks {
