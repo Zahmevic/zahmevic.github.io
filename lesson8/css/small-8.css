@@ -219,7 +219,7 @@ form label.top input:required:valid {
 /*thanks*/
 .thanks {
     background-color: #17171a;
-    border: outset 1px #17171a;
+    border: outset 1px #000037;
     border-radius: 5px;
     color: #FFFFFF;
     font-family: 'Bree Serif';
