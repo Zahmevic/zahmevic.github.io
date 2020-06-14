@@ -126,51 +126,64 @@ border-radius: 5px;
     margin-top: 10px;
     font-size: 10px;
 }
-/*week08*/
-form {
+/*week08 -----------------FORM*/
+form fieldset {
+    margin: 2rem 1rem;
+    border: 2px solid #3a063d;
+    border-radius: 5px;
+    padding: .5rem 2%;
+}
+form legend {
+    font-family: 'Bree Serif';
+    color: #17171a;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+display: block;
+padding-top: 10px;
+color: #17171a;
+font-family: 'Rubik';
+font-size: 15px;
+}
+form label.top input, form label.top select {
+    display: block;
     font-family: 'Rubik';
     font-size: 15px;
-    font-weight: bold;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+    border: solid 1px #3a063d;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #17171a;
+    width: 90%;
 }
-textarea {
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #17171a;
     font-family: 'Rubik';
+    font-size: 15px;
+}
+form label.sbs input {
+    display: block;
+    padding: .75rem;
+    width: 90%;
+}
+form label.sbsD {
+    font-family: 'Rubik';
+    font-size: 15px;
+}
+form label.sbsD input {
+    display: block;
+    margin-top: 15px;
+}
+form textarea {
+    width: 90%;
+    font-family: 'Rubik';
+    font-size: 15px;
+    border: 1px solid #17171a;
     border-radius: 5px;
-}
-.box {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-input {
-    border: solid 2px #17171a;
-    border-radius: 5px;
-    line-height: 20px;
-    box-shadow: 2px 2px #000037;
-}
-#comments {
-    width: 280px;
-    height: 250px;
-}
-#yes, #maybe, #no {
-margin-left: -90px;
-}
-.level {
-    margin-left: 20px;
-padding-left: .5em;
-}
-.button  {
-    border-radius: 10px;
-    background-color: #E1B915;
-    border: outset 2px #E1B915;
-    font-family: 'Bree Serif';
-    font-size: 30px;
-}
-fieldset {
-    width: 50%;
-    margin: auto;
+    margin: 10px auto;
 }
 /*thanks*/
 .thanks {
@@ -186,6 +199,7 @@ fieldset {
     box-shadow: inset 3px 3px 15px #FFFFFF, inset -3px -3px 15px #FFFFFF;
     padding: 20px;
 }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content:"";

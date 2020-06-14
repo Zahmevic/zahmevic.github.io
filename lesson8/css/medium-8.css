@@ -84,15 +84,3 @@ nav {
                     border-radius: 10px;
                 }
             }
-.box {
-    flex-direction: row;
-}
-.box label {
-    flex-basis: 9rem;
-    flex-grow: 0;
-    flex-shrink: 0;
-}
-fieldset {
-    width: 80%;
-    margin: auto;
-}
