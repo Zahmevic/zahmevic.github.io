@@ -185,6 +185,17 @@ form textarea {
     border-radius: 5px;
     margin: 10px auto;
 }
+form input.submitButton {
+    border: none;
+    background-color: #000037;
+    color: #FFFFFF;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    border-radius: 5px;
+    padding: .75rem;
+    margin: 0 0 2rem 2rem;
+    width: 80%;
+}
 /*thanks*/
 .thanks {
     background-color: #17171a;
