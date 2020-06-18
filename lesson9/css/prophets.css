@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rokkitt:wght@300&display=swap');
+body {
+background-color: #0A0133;
+}
+main {
+    align-items: center;
+    margin: 0 50px 0 100px;
+    background-color: #FCFCE3;
+    border-radius: 20px;
+}
+div.cards {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 60px;
+    align-items: center;
+}
+section {
+    background-color: #BDD4FC;
+    border: outset 1px #1B2021;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+h2, h3, h4, h1 {
+    text-align: center;
+}
+h4 {
+    font-style: oblique;
+}
+h2 {
+    font-family: 'Great Vibes';
+    font-size: 30px;
+    margin: 0;
+    color: #0A0133;
+}
+h1 {
+    font-family: 'Great Vibes';
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #FCFCE3;
+}
+h3, h4 {
+    font-family: 'Rokkitt';
+    font-size: 15px;
+    margin: 0;
+    color: 30343F;
+}
+
+img {
+    width:180px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    font-family: 'Rokkitt';
+    font-size: 20px;
+    text-align: center;
+    color: #FCFCE3;
+}
