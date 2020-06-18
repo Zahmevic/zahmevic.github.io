@@ -15,7 +15,7 @@ let h4 = document.createElement('h4');
 let image = document.createElement('img');
 
 h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-h3.textContent = prophets[i].birthdate;
+h3.textContent = prophets[i].birthdate + ' - ' + prophets[i].death;
 h4.textContent = prophets[i].birthplace;
 image.setAttribute('src', prophets[i].imageurl);
 
