@@ -117,11 +117,11 @@ main {
     position: absolute;
     top: 60px;
     left: 60px;
-    border: 1px outset #000037;
+    border: 1px outset #000037; 
     border-radius: 5px;
     font-family: 'Rubik';
     font-size: 10px;
-    background: radial-gradient(#FFFFFF, #E1B915);
+    background: radial-gradient(#FFFFFF, #E1B915,);
     opacity: 70%;
 
 }
