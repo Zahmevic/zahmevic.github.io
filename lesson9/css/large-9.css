@@ -1,0 +1,126 @@
+@media only screen and (min-width: 1024px) {
+    /*Banner*/
+.friday {
+    font-size: 25px;
+}
+/*HEADER*/
+h1 {
+    font-size: 45px;
+}
+header h3 {
+    font-size: 35px;
+}
+/*navigation bar*/
+nav {
+    font-size: 25px;
+}
+
+nav li {
+width: 220px;
+}
+ /*Main*/
+h2 {
+font-size: 30px;}
+/*banner*/
+.banner {
+    margin: 60px;
+}
+.square {
+    left: 60px;
+    padding: 20px;
+}
+h3 {
+    font-size: 30px;
+}
+.square p {
+    font-size: 25px;
+}
+#weath {
+    font-size: 30px;
+}
+/*weather*/
+.flex {
+    margin: 5px 60px 5px 60px;
+}
+.col-head {
+    font-size: 30px;}
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 5px 90px 5px 90px;
+}
+.data {
+    font-size: 20px;
+}
+/*JSON*/
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.cards section {
+width: 300px;
+margin-left: 60px;
+padding: 15px;
+}
+div.cards section h1 {
+    grid-row: 1;
+    font-size: 20px;
+}
+div.cards section h2 {
+    grid-row: 2;
+    font-family: 'Rubik';
+    font-size: 14px;
+    color: #E1B915;
+    margin: 2px;
+    font-style: oblique;
+}
+div.cards section h3, h4, h5, h6 {
+    font-family: 'Rubik';
+    font-size: 15px;
+    margin:10px 2px 2px 2px;
+}
+
+div.cards section img {
+    grid-column: 1;
+    grid-row: 6;
+    margin: 0 30px 0 30px;
+}
+/*Contact*/
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+background-color: #E1B915;
+border: 1px solid #17171a;
+margin: 60px;
+color: #17171a;
+font-family: 'Rubik';
+}
+.datos {
+    font-size: 25px;
+    grid-column: 2;
+    margin: 25px 200px 25px 0;
+    padding: 5px;
+}   
+.datos li {
+    margin: 10px;
+}
+.face {
+    width: 60px;
+}
+.img3 {
+    grid-row: 1;
+    width: 250px;
+    height: 250px;
+    margin: 25px 0 25px 200px;
+}
+/*footer*/
+footer {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 3px;
+}
+.date {
+    color: #E1B915;
+}
+}
+}

@@ -73,6 +73,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #FFFFFF;
+    color: #17171a;
 }
 nav ul li.active a{background-color: #3a063d; color: #FFFFFF;}
 nav ul.hide {display:none; }
