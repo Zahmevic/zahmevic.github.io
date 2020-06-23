@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+main {
+    background-color: #FDFFEA;
+    width: 600px;
+    margin: 0 auto;
+    border: solid 2px #8EEBD0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;   
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+
+}

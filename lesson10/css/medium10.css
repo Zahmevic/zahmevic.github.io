@@ -1,0 +1,141 @@
+@media only screen and (min-width: 768px) {
+/*Banner*/
+.friday {
+    font-size: 20px;
+}
+/*HEADER*/
+h1 {
+    font-size: 30px;
+}
+header h3 {
+    font-size: 20px;
+}
+
+/*navigation bar*/
+nav {
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+nav a {
+    display: block;
+}
+nav button {
+    display: none;
+}
+nav ul {
+    flex-flow: row wrap;
+}
+nav li {
+width: 120px;
+}
+nav ul.hide {display: flex; }
+ /*Main*/
+
+h2 { font-family: 'Bree Serif';
+font-size: 25px;
+text-align: center;}
+/*banner*/
+.banner {
+    margin: 35px;
+}
+.square {
+    left: 35px;
+    padding: 15px;
+}
+h3 {
+    font-size: 20px;
+}
+.square p {
+    font-size: 18px;
+}
+#weath {
+    font-size: 20px;
+}
+/*weather*/
+.flex {
+    margin: 5px 35px 5px 35px;
+}
+.col-head {
+    font-size: 20px;
+    background-color: #17171a;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px 45px 5px 45px;
+}
+.data {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+/*JSON*/
+div.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 35px;
+}
+div.cards section h1 {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 20px;
+    display: block;
+}
+div.cards section h2 {
+grid-column: 1;
+grid-row: 2;
+    font-family: 'Rubik';
+    font-size: 14px;
+    color: #E1B915;
+    margin: 2px;
+    font-style: oblique;
+}
+div.cards section h3, h4, h5, h6 {
+    grid-column: 1;
+    font-family: 'Rubik';
+    font-size: 15px;
+    margin:10px 2px 2px 2px;
+}
+
+div.cards section img {
+    grid-column: 2;
+    grid-row: 1/6;
+    margin: 0 30px 0 30px;
+}
+/*Contact*/
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+background-color: #E1B915;
+border: 1px solid #17171a;
+margin: 35px;
+color: #17171a;
+font-family: 'Rubik';
+}
+.datos {
+    grid-column: 2;
+    margin: 25px 45px 25px 0;
+    padding: 5px;
+}   
+.datos li {
+    margin: 10px;
+}
+.face {
+    width: 60px;
+}
+.img3 {
+    grid-row: 1;
+    width: 200px;
+    height: 200px;
+    margin: 25px 0 25px 60px;
+}
+/*footer*/
+footer {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 3px;
+}
+.date {
+    color: #E1B915;
+}
+}
