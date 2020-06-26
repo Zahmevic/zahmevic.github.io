@@ -48,6 +48,11 @@ h3 {
 }
 .square p {
     font-size: 18px;
+    line-height: 20px;
+}
+#weather {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 #weath {
     font-size: 20px;
