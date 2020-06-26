@@ -106,17 +106,23 @@ main picture.banner img {width: 90%;}
 h3 {
     font-size: 15px;
     font-family: 'Bree Serif';
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 .square p {
     list-style-type: none;
     text-align: left;
     font-family: 'Rubik';
     font-size: 10px;
+    line-height: 5px;
+    margin-top: 15px;
 }
 #weather {
     font-family: 'Bree Serif';
     text-align: center;
     font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 /*weather*/
 .flex {
