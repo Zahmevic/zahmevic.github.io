@@ -134,6 +134,23 @@ font-family: 'Rubik';
     height: 200px;
     margin: 25px 0 25px 60px;
 }
+/*preston.html*/
+.art {
+    font-size: 40px;
+}
+.preston10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 25px 20px 0;
+    margin: 35px;
+    width:650px;
+}
+.preston10 p {
+    font-size: 20px;
+}.preston10 picture img {
+    margin-top: 40px;
+    margin-left: 20px;
+}
 /*footer*/
 footer {
     font-size: 22px;

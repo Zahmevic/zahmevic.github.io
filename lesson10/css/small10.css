@@ -232,6 +232,24 @@ footer {
  .name {
      font-size: 50px;
  }
+ .art {
+     font-size: 30px;
+ }
+.preston10 {
+    background: #3a063d;
+    margin: 10px;
+    width: 280px;
+    
+}
+.preston10 p {
+    font-family: 'Rubik';
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+ .preston10 picture img {
+
+ }
  /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content:"";
