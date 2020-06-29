@@ -1,0 +1,258 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');*/
+body {
+    background-color: #F5F5F2;
+}
+/*Banner*/
+.friday {
+    font-family: 'Rubik';
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #17171a;
+    text-align: center;
+}
+/*HEADER*/
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #17171a;
+}
+.header {
+    flex: 1 1 60%;
+    text-align: center;
+}
+h1 {
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+header h3 {
+    font-family: 'Rubik';
+    font-size: 10px;
+    margin-top: 0;
+}
+/*navigation bar*/
+nav {
+    background-color: #000037;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    color: #E1B915;
+    font-size: .8rem;
+    margin: 0 40% 0 40%;
+}
+nav ul {
+    color: #FFFFFF;
+    list-style-type: none;
+padding: 0;
+margin: 0;
+overflow: hidden;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid #E1B915;
+}
+
+  .menu {
+    color: #E1B915;
+  }
+  .active {
+      background-color: #3a063d;
+      color: #FFFFFF;
+  }
+
+nav ul li a:hover {
+    background-color: #FFFFFF;
+    color: #17171a;
+}
+nav ul li.active a{background-color: #3a063d; color: #FFFFFF;}
+nav ul.hide {display:none; }
+ /*Main*/
+ main {
+     background-color: #FFFFFF;
+     box-shadow: 5px 5px 5px #17171a;
+     padding-bottom: 5px;
+ }
+h2 { font-family: 'Bree Serif';
+font-size: 15px;
+text-align: center;}
+/*banner*/
+.hero {
+    position: relative;
+}
+.banner {
+    margin: 15px;
+}
+main picture.banner {width: 60%;}
+main picture.banner img {width: 90%;}
+.square {
+    position: absolute;
+    border: 1px solid #000037;
+    background: radial-gradient(#FFFFFF, #E1B915);
+    top: .1rem;
+    left: 15px;
+    padding: 5px;
+}
+h3 {
+    font-size: 15px;
+    font-family: 'Bree Serif';
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.square p {
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Rubik';
+    font-size: 10px;
+    line-height: 5px;
+    margin-top: 15px;
+}
+#weather {
+    font-family: 'Bree Serif';
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+/*weather*/
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px 15px 5px 15px;
+}
+.flex-col {
+    flex: 1 1 auto;
+    background-color: #000037;
+    color: #FFFFFF;
+}
+.col-head {
+    display: block;
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    background-color: #17171a;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px 5px 10px;
+}
+.data {
+    display: block;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 10px;
+}
+/*JSON*/
+div.cards section {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a063d;
+    color: #FFFFFF;
+    margin: 15px;
+    text-align: center;
+}
+div.cards section h1 {
+    font-size: 20px;
+}
+div.cards section h2 {
+    font-family: 'Rubik';
+    font-size: 14px;
+    color: #E1B915;
+    margin: 2px;
+    font-style: oblique;
+}
+div.cards section h3, h4, h5, h6 {
+    font-family: 'Rubik';
+    font-size: 15px;
+    margin:10px 2px 2px 2px;
+}
+/*Contact*/
+.contact {
+background-color: #E1B915;
+border: 1px solid #17171a;
+margin: 15px;
+color: #17171a;
+font-family: 'Rubik';
+}
+.datos {
+    list-style-type: none;
+    text-align: center;
+    line-height: 20px;
+}
+.datos li {
+    margin: 10px;
+}
+.face {
+    width: 50px;
+}
+.img3 {
+    width: 150px;
+    height: 150px;
+    margin: 0 25% 5px 25%;
+}
+/*footer*/
+footer {
+    background-color: #000037;
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 3px;
+}
+.date {
+    color: #E1B915;
+}
+
+ /*Wireframes*/
+ .wireframe {
+     margin: 20px 100px 20px 100px;
+     background-color: black;
+ }
+ .movil {
+     background-color: azure;
+     margin-bottom: 20px;
+ }
+ .tablet {
+     background-color: blanchedalmond;
+ }
+ .desktop {
+     background-color: beige;
+ }
+ .name {
+     font-size: 50px;
+ }
+ .art {
+     font-size: 30px;
+ }
+.preston10 {
+    background: #3a063d;
+    margin: 10px;
+    width: 280px;
+    
+}
+.preston10 p {
+    font-family: 'Rubik';
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+ .preston10 picture img {
+
+ }
+ /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+        }
