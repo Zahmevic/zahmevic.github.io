@@ -4,7 +4,7 @@
         <title>WeathCloud Preston</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Preston Weather Site home page">
+        <meta name="description" content="Preston WeathCloud">
         <link rel="shortcut icon" href="favicon.ico">
         <link type="text/css" rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
@@ -27,22 +27,22 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">Menu &#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="menu" href="index.html">Home</a></li>
             <li><a class="menu" href="preston.html">Preston</a></li>
             <li><a class="menu" href="soda.html">Soda Springs</a></li>
-            <li><a class="menu" href="fish-haven.html">Fish Haven</a></li>
+            <li><a class="active" href="fish-haven.html">Fish Haven</a></li>
             <li><a class="menu" href="">Storm Center</a></li>
             <li><a class="menu" href="">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Idaho</h2>
+        <h2>Fish Haven - Idaho</h2>
         <div class="hero">
         <picture class="banner">
-            <source media="(max-width: 320px)" srcset="images/prest260.jpg">
-            <source media="(max-width: 375px)" srcset="images/prest330.jpg">
-            <source media="(max-width: 425px)" srcset="images/prest380.jpg">
-            <img src="images/prest.jpg" alt="Preston Nature">
+            <source media="(max-width: 320px)" srcset="images/fishhaven260.jpg">
+            <source media="(max-width: 375px)" srcset="images/fishhaven330.jpg">
+            <source media="(max-width: 425px)" srcset="images/fishhaven380.jpg">
+            <img src="images/fishhaven600.png" alt="Fish Haven">
         </picture>
         <section class="square">
             <h3>Actual Weather:</h3>
@@ -58,31 +58,38 @@
     <div class="flex">
 <div class="flex-col">
     <span class="col-head" id="day1"></span>
-    <span id="imagesrc1"><img class="icon" src="" id="icon1"></span>
+    <span id="imagesrc1"><img class="icon" src="" id="icon1" alt="icon1"></span>
     <p class="data"><span id="for1"></span>&deg; F</p>
 </div>
 <div class="flex-col">
     <span class="col-head" id="day2"></span>
-    <span id="imagesrc2"><img class="icon" src="" id="icon2"></span>
+    <span id="imagesrc2"><img class="icon" src="" id="icon2" alt="icon2"></span>
     <p class="data"><span id="for2"></span>&deg; F</p>
 </div>
 <div class="flex-col">
     <span class="col-head" id="day3"></span>
-    <span id="imagesrc3"><img class="icon" src="" id="icon3"></span>
+    <span id="imagesrc3"><img class="icon" src="" id="icon3" alt="icon3"></span>
     <p class="data"><span id="for3"></span>&deg; F</p>
 </div>
 <div class="flex-col">
     <span class="col-head" id="day4"></span>
-    <span id="imagesrc4"><img class="icon" src="" id="icon4"></span>
+    <span id="imagesrc4"><img class="icon" src="" id="icon4" alt="icon4"></span>
     <p class="data"><span id="for4"></span>&deg; F</p>
 </div>
 <div class="flex-col">
     <span class="col-head" id="day5"></span>
-    <span id="imagesrc5"><img class="icon" src="" id="icon5"></span>
+    <span id="imagesrc5"><img class="icon" src="" id="icon5" alt="icon5"></span>
     <p class="data"><span id="for5"></span>&deg; F</p>
 </div>
     </div>
-<div class="cards"></div>
+<h2 class="art">Fish Haven</h2>
+<section class="preston10">
+    <picture class="picture">
+        <source media="(max-width: 768px)" srcset="images/fishh260.png">
+        <img src="images/fishH.png">
+    </picture>
+<p></p>
+</section>
 <div class="contact">
     <ul class="datos">
         <li>Preston<br>
@@ -102,8 +109,7 @@
     <script src ="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="java/webfont.js"></script>
     <script src="java/menu.js"></script>
-    <script src="java/preston.js"></script>
-    <script src="java/weather.js"></script>
-    <script src="java/forecast.js"></script>
+    <script src="java/fish.js"></script>
+    <script src="java/fish-f.js"></script>
     </body>
 </html>
