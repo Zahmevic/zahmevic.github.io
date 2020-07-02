@@ -147,9 +147,23 @@ font-family: 'Rubik';
 }
 .preston10 p {
     font-size: 20px;
-}.preston10 picture img {
+    grid-column: 1;
+    grid-row: 1;
+}
+.preston10 picture img {
     margin-top: 40px;
     margin-left: 20px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.evento {
+    width: 500px;
+}
+.evento h2 {
+    font-size: 30px;
+}
+.evento p {
+    font-size: 25px;
 }
 /*footer*/
 footer {

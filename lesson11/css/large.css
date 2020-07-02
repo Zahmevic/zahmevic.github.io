@@ -118,11 +118,18 @@ font-family: 'Rubik';
     margin: 25px 0 25px 200px;
 }
 .preston10 {
-    margin: 60px;
-    width: 1200px;
+    margin: 0 auto;
+    width: 900px;
 }
 .preston10 p {
     font-size: 30px;
+}
+.evento {
+    width: 700px;
+    margin-top: 30px;
+}
+.evento h2 {
+    font-size: 40px;
 }
 /*footer*/
 footer {

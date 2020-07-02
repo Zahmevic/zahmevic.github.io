@@ -84,7 +84,7 @@ nav ul.hide {display:none; }
      padding-bottom: 5px;
  }
 h2 { font-family: 'Bree Serif';
-font-size: 15px;
+font-size: 20px;
 text-align: center;}
 /*banner*/
 .hero {
@@ -250,14 +250,20 @@ footer {
     padding: 20px;
 }
  .preston10 picture img {
-
+margin: 15px;
  }
  .evento {
      font-family: 'Rubik';
      border: #3a063d 2px inset;
-     margin: 15px;
-     box-shadow: inset 5px 5px 20px 5px #E1B915, inset -5px -5px 20px 5px #000037;
+     margin: 0 auto;
+     box-shadow: -5px -5px 5px 2px #000037;
      text-align: center;
+     width: 250px;
+
+ }
+ .evento h2 {
+background-color: #3a063d;
+color: #FFFFFF;
  }
  /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
