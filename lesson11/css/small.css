@@ -239,15 +239,14 @@ footer {
  }
 .preston10 {
     background: #3a063d;
-    margin: 10px;
-    width: 280px;
-    
+    margin: 10px; 
 }
 .preston10 p {
     font-family: 'Rubik';
     font-size: 15px;
     color: #FFFFFF;
     padding: 20px;
+    text-align: justify;
 }
  .preston10 picture img {
 margin: 15px;
