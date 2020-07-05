@@ -118,11 +118,14 @@ font-family: 'Rubik';
     margin: 25px 0 25px 200px;
 }
 .preston10  {
-    margin: 60px;
+    margin: 0 auto;
     width: 850px;
 }
 .preston10 p {
     font-size: 30px;
+}
+#h4 {
+    font-size: 20px;
 }
 .evento {
     width: 700px;
