@@ -252,7 +252,7 @@ footer {
  .preston10 picture img {
 margin: 15px;
  }
- h4 {
+ .preston10 h4 {
      font-family: 'Bree Serif';
      color: #FFFFFF;
      font-style: italic;
@@ -272,6 +272,108 @@ margin: 15px;
 background-color: #3a063d;
 color: #FFFFFF;
  }
+ /*STORM CENTER*/
+ form fieldset {
+    margin: 20px;
+    border: 2px solid #3a063d;
+    border-radius: 5px;
+    padding: .5rem 2%;
+    width: 80%;
+
+}
+form label {
+    width: 80%;
+    margin: 0 auto;
+}
+form legend {
+    font-family: 'Bree Serif';
+    color: #17171a;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+display: block;
+padding-top: 10px;
+color: #17171a;
+font-family: 'Rubik';
+font-size: 15px;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-family: 'Rubik';
+    font-size: 15px;
+    border: solid 1px #3a063d;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #17171a;
+    width: 90%;
+}
+form select {
+    padding: .75rem;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #17171a;
+    font-family: 'Rubik';
+    font-size: 15px;
+}
+form label.sbs input {
+    display: block;
+    padding: .75rem;
+    width: 90%;
+}
+form label.sbsD {
+    font-family: 'Rubik';
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input[type="radio"] {
+    margin-top: 15px;
+}
+form textarea {
+    width: 90%;
+    font-family: 'Rubik';
+    font-size: 15px;
+    border: 1px solid #17171a;
+    border-radius: 5px;
+    margin: 15px 15px auto;
+    height: 250px;
+}
+form input.submitButton {
+    border: none;
+    background-color: #000037;
+    color: #FFFFFF;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    border-radius: 5px;
+    padding: .75rem;
+    margin: 0 0 2rem 2rem;
+    width: 80%;
+}
+form label.top input:required {
+    border-left: #3a063d solid 6px;
+}
+form label.top input:required:valid {
+    border-left: #E1B915 solid 6px;
+}
+/*thanks*/
+.thanks {
+    background-color: #17171a;
+    border: outset 1px #000037;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Bree Serif';
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: inset 3px 3px 15px #FFFFFF, inset -3px -3px 15px #FFFFFF;
+    padding: 20px;
+}
  /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content:"";

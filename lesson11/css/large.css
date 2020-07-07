@@ -143,4 +143,19 @@ footer {
 .date {
     color: #E1B915;
 }
+form label {
+    width: 50%
+}
+form fieldset {
+    width: 60%
+}
+input[type="radio"] {
+    margin-left: 25%;
+}
+.danger {
+    margin-left: 25%;
+}
+form label.sbsD {
+padding: .4rem 0;
+}
 }
