@@ -186,4 +186,24 @@ input[type="radio"] {
 form input.submitButton {
     margin: 2rem 6rem;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gallery {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.gallery[data-src] {
+filter: blur(0.2em);
+}
+.type {
+    font-size: 20px;
+}
+.event {
+font-size: 20px;
+}
+#h1 {
+    font-size: 30px;
+}
 }

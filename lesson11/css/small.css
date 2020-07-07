@@ -380,3 +380,28 @@ form label.top input:required:valid {
     display: table;
     clear: both;
         }
+        /*GALLERY*/
+        .gallery {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            filter: blur(0em);
+            transition: filter 0.5s;
+        }
+        .gallery[data-src] {
+        filter: blur(0.2em);
+        }
+        .type {
+            margin: -25px 20px 20px 20px;
+            width: 250px;
+            line-height: 2em;
+            text-align: center;
+            font-family: 'Rubik';
+            font-size: 15px;
+            background-color: #17171a;
+            color: #FFFFFF;
+        }
+        #h1 {
+            font-size: 20px;
+            text-align: center;
+        }

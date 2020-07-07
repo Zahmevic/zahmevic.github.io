@@ -158,4 +158,26 @@ input[type="radio"] {
 form label.sbsD {
 padding: .4rem 0;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery {
+
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.gallery[data-src] {
+filter: blur(0.2em);
+}  
+.gallery:hover {
+    box-shadow: 5px 5px 15px 5px #3a063d, -5px -5px 15px 5px #3a063d;
+}
+.event {
+    font-size: 25px;
+    margin: 10px;
+}  
+#h1 {
+    font-size: 40px;
+}
 }
