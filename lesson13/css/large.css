@@ -1,0 +1,104 @@
+@media only screen and (min-width: 1024px) {
+body {
+    margin: 30px;
+}
+    .logo {
+  grid-row: 1;
+    }
+    .header {
+grid-column: 1/3;
+    }
+    nav {
+ width: 1280px;
+ margin: 10px 0 10px 0;
+ height: 60px;
+    }
+    nav ul li {
+        width: 255px;
+        font-size: 35px;
+    }
+    nav a {
+        height: 60px;
+        line-height: 30px;
+    }
+    nav ul {
+    width: 1280px;
+    }
+
+    main {
+        width: 1280px;
+    }
+    .square {
+        width: 1280px;
+        font-size: 25px;
+    }
+    #icon0 {
+        width: 70px;
+        height:70px;
+    }
+    .flex {
+        width: 1280px;
+    }
+    .col-head {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+    }
+    .iconB {
+        width: 60px;
+        height: 60px;
+        margin: 5px 90px 5px 90px;
+    }
+    .data {
+        font-size: 20px;
+    }
+    .introduction {
+        margin-top: 10px;
+        display: flex;
+    }
+    .call p {
+        margin: 50px 150px;
+    }
+    .call input {
+    margin: 0 350px;
+    }
+    .types {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.contact {
+    margin: 10px;
+}
+    .contact section {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .contact section iframe {
+margin: 0 auto;
+    }
+    .social {
+        margin: 70px;
+    }
+    .social img {
+        width: 50px;
+        grid-row: 1;
+        margin: 0 auto;
+    }
+
+    h3 {
+        margin: 10px;
+    }
+    footer {
+    width: 1280px;
+    }
+    .date {
+        color: #ffde00;
+        font-family: 'Nanum Gothic';
+    }
+    }

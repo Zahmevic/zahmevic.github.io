@@ -1,0 +1,64 @@
+{
+    "table": [{
+"title": "Max Person and Price Chart",
+"subtitle": "(includes tax)"
+    },
+{
+    "reservation": "Reservation",
+    "walk": "Walk-In"
+},
+{
+    "column1": "Rental Type",
+    "column2": "Max.Persons",
+    "column3": "Half Day (3hrs)",
+    "column4": "Full Day"
+},
+{
+    "name": "~Honda Metro Scooter",
+    "person": 1,
+    "half1": "$20",
+    "full1": "$30",
+    "half2": "$25",
+    "full2": "$35"
+},
+{
+    "name": "~Honda Dio Scooter",
+    "person": 2,
+    "half1": "$30",
+    "full1": "$40",
+    "half2": "$35",
+    "full2": "$45"
+},
+{
+    "name": "~Honda PCX150 Scooter",
+    "person": 2,
+    "half1": "$40",
+    "full1": "$50",
+    "half2": "$45",
+    "full2": "$55"
+},
+{
+    "name": "Honda Pioneer ATV",
+    "person": 4,
+    "half1": "$50",
+    "full1": "$70",
+    "half2": "$60",
+    "full2": "$80"
+},
+{
+    "name": "Jeep Wrangler - 4 door with a/c",
+    "person": 5,
+    "half1": "$70",
+    "full1": "$100",
+    "half2": "$85",
+    "full2": "$125"
+},
+{
+    "name": "Jeep Wrangler - 2 door",
+    "person": 4,
+    "half1": "$60",
+    "full1": "$85",
+    "half2": "$70",
+    "full2": "$90"
+}]
+}

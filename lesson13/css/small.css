@@ -1,0 +1,227 @@
+body {
+    margin: 10px;
+}
+header {
+    display: grid;
+}
+.logo {
+    grid-column: 1;
+}
+.header {
+    grid-column: 2;
+}
+nav {
+    font-family: 'Nanum Gothic';
+    font-size: 15px;
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #c4003d;
+    font-size: 2rem;
+margin: 10px 0 0 70px;  
+}
+nav ul {
+    list-style-type: none;
+padding: 0;
+margin: 0;
+overflow: hidden;
+background-color: #c4003d;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+  .menu {
+    color: #FFFFFF;
+  }
+  .active {
+      background-color: #aae300;
+      color: #000000;
+  }
+
+nav ul li a:hover {
+    background-color: #ffde00;
+}
+nav ul li.active a{background-color: #3a063d; color: #FFFFFF;}
+nav ul.hide {display:none; }
+.hero {
+    position: relative;
+}
+.square {
+    position: absolute;
+    top: 1px;
+    display: grid;
+    grid-template-columns: 40px 1fr 1fr 1fr;
+    background: radial-gradient(transparent, #aae300);
+    width: 310px;
+    font-size: 10px;
+    font-family: 'Nanum Gothic';
+}
+#icon0 {
+    grid-column: 1;
+}
+#weather {
+    grid-column: 2;
+    text-align: center;
+}
+#tempe {
+    grid-column: 3;
+    text-align: center;
+}
+#hum {
+    grid-column: 4;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    width: 305px;
+    border: #aae300 2px solid;
+    margin-top: 10px;
+}
+.flex-col {
+    flex: 1 1 auto;
+    background-color: #FFFFFF;
+    color: #f04d00; 
+}
+.col-head {
+    display: block;
+    text-align: center;
+    font-family: 'Nanum Gothic';
+    font-size: 15px;
+    background-color: #f04d00;
+    color: #FFFFFF;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px 5px 10px;
+}
+.data {
+    display: block;
+    text-align: center;
+    font-family: 'Muli';
+    font-size: 10px;
+}
+.introduction {
+    margin-top: 10px;
+    display: flex;
+}
+.call p {
+    margin: 10px;
+    font-family: 'Muli';
+    font-size: 15px;
+}
+.call input {
+text-align: center;
+margin: 10px 30px 0 30px;
+color: #FFFFFF;
+background-color: #aae300;
+font-family: 'Nanum Gothic';
+}
+.rentals {
+    background-color: #0239AD;
+    color: #FFFFFF;
+    margin-top: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.types figure.figure {
+    width: 90%;
+    margin: 25px 15px 25px 15px;
+    height: 241px;
+}
+main figure.figure:hover {
+    box-shadow: 5px 5px 10px #ffde00, -5px -5px 10px #ffde00;
+}
+main figure.figure img {
+    width: 100%;
+}
+.types figure.figure img {
+    height: 200px;
+}
+h2, h3 {
+    text-align: center;
+    font-family: 'Nanum Gothic';
+    padding: 10px;
+    margin: 0;
+}
+figcaption {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+    text-align: center;
+    font-family: 'Muli';
+    margin-bottom: 20px;
+    margin-top: -5px;
+    height: 41px;
+}
+.figure {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.figure[data-src] {
+filter: blur(0.2em);
+}
+.contact {
+    border: 2px solid #ffde00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact section {
+    margin-bottom: 10px;
+}
+.contact section iframe {
+    width: 150px;
+    height: 150px;
+    margin: 20px 70px 20px 70px;
+}
+.contact section p {
+    text-align: center;
+    font-family: 'Muli';
+}
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+}
+.face {
+    grid-column: 1;
+}
+.social img {
+    width: 30px;
+    grid-row: 1;
+    margin: 10px 30px 0 30px;
+}
+.social a {
+    margin-bottom: 10px;
+    font-family: 'Muli';
+    font-size: 15px;
+    color: #c4003d;
+}
+.insta {
+    grid-column: 2;
+}
+.twit {
+    grid-column: 3;
+}
+footer {
+    background-color: #0239AD;
+    color: #FFFFFF;
+    font-family: 'Muli';
+    text-align: center;
+}
+.date {
+    color: #ffde00;
+    font-family: 'Nanum Gothic';
+}
+ .clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+        }
