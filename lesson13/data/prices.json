@@ -1,4 +1,5 @@
-[
+{
+    "table": [
     {
         "name": "~Honda Metro Scooter",
         "max": 1,
@@ -83,4 +84,4 @@
         "price3": "$70",
         "price4": "$90"
     }
-]
+]}
