@@ -2,7 +2,7 @@
     "table": [
         {
         "name": "~Honda Metro Scooter",
-        "max": 1,
+        "max": "1 person",
         "Reservation": "Reservation",
         "Half": "Half Day (3 hrs)",
         "Full": "Full Day",
@@ -12,11 +12,12 @@
         "price1": "$20",
         "price2": "$30",
         "price3": "$25",
-        "price4": "$35"
+        "price4": "$35",
+        "image": "images/honda_metro310.jpg"
     },
     {
         "name": "~Honda Dio Scooter",
-        "max": 2,
+        "max": "2 persons",
         "Reservation": "Reservation",
         "Half": "Half Day (3 hrs)",
         "Full": "Full Day",
@@ -26,11 +27,12 @@
         "price1": "$30",
         "price2": "$40",
         "price3": "$35",
-        "price4": "$45"
+        "price4": "$45",
+        "image": "images/honda_dio310.jpg"
     },
     {
         "name": "~Honda PCX150 Scooter",
-        "max": 2,
+        "max": "2 persons",
         "Reservation": "Reservation",
         "Half": "Half Day (3 hrs)",
         "Full": "Full Day",
@@ -40,11 +42,12 @@
         "price1": "$40",
         "price2": "$50",
         "price3": "$45",
-        "price4": "$55"
+        "price4": "$55",
+        "image": "images/honda_pcx310.jpg"
     },
     {
         "name": "Honda Pioneer ATV",
-        "max": 4,
+        "max": "4 persons",
         "Reservation": "Reservation",
         "Half": "Half Day (3 hrs)",
         "Full": "Full Day",
@@ -54,11 +57,12 @@
         "price1": "$50",
         "price2": "$70",
         "price3": "$60",
-        "price4": "$80"
+        "price4": "$80",
+        "image": "images/honda_pioneer310.jpg"
     },
     {
         "name": "Jeep Wrangler-4 door with a/c",
-        "max": 5,
+        "max": "5 persons",
         "Reservation": "Reservation",
         "Half": "Half Day (3 hrs)",
         "Full": "Full Day",
@@ -68,11 +72,12 @@
         "price1": "$70",
         "price2": "$100",
         "price3": "$85",
-        "price4": "$125"
+        "price4": "$125",
+        "image": "images/4_wrangler310.jpg"
     },
     {
         "name": "Jeep Wrangler-2 door",
-        "max": 4,
+        "max": "4 persons",
         "Reservation": "Reservation",
         "Half": "Half Day (3 hrs)",
         "Full": "Full Day",
@@ -82,6 +87,7 @@
         "price1": "$60",
         "price2": "$85",
         "price3": "$70",
-        "price4": "$90"
+        "price4": "$90",
+        "image": "images/2_wrangler310.jpg"
         }
         ]}
