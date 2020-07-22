@@ -1,64 +1,86 @@
-{
-    "table": [{
-"title": "Max Person and Price Chart",
-"subtitle": "(includes tax)"
+[
+    {
+        "name": "~Honda Metro Scooter",
+        "max": 1,
+        "Reservation": "Reservation",
+        "Half": "Half Day (3 hrs)",
+        "Full": "Full Day",
+        "Walk": "Walk-in",
+        "hour": "Half Day (3 hrs)",
+        "Day": "Full Day",
+        "price1": "$20",
+        "price2": "$30",
+        "price3": "$25",
+        "price4": "$35"
     },
-{
-    "reservation": "Reservation",
-    "walk": "Walk-In"
-},
-{
-    "column1": "Rental Type",
-    "column2": "Max.Persons",
-    "column3": "Half Day (3hrs)",
-    "column4": "Full Day"
-},
-{
-    "name": "~Honda Metro Scooter",
-    "person": 1,
-    "half1": "$20",
-    "full1": "$30",
-    "half2": "$25",
-    "full2": "$35"
-},
-{
-    "name": "~Honda Dio Scooter",
-    "person": 2,
-    "half1": "$30",
-    "full1": "$40",
-    "half2": "$35",
-    "full2": "$45"
-},
-{
-    "name": "~Honda PCX150 Scooter",
-    "person": 2,
-    "half1": "$40",
-    "full1": "$50",
-    "half2": "$45",
-    "full2": "$55"
-},
-{
-    "name": "Honda Pioneer ATV",
-    "person": 4,
-    "half1": "$50",
-    "full1": "$70",
-    "half2": "$60",
-    "full2": "$80"
-},
-{
-    "name": "Jeep Wrangler - 4 door with a/c",
-    "person": 5,
-    "half1": "$70",
-    "full1": "$100",
-    "half2": "$85",
-    "full2": "$125"
-},
-{
-    "name": "Jeep Wrangler - 2 door",
-    "person": 4,
-    "half1": "$60",
-    "full1": "$85",
-    "half2": "$70",
-    "full2": "$90"
-}]
-}
+    {
+        "name": "~Honda Dio Scooter",
+        "max": 2,
+        "Reservation": "Reservation",
+        "Half": "Half Day (3 hrs)",
+        "Full": "Full Day",
+        "Walk": "Walk-in",
+        "hour": "Half Day (3 hrs)",
+        "Day": "Full Day",
+        "price1": "$30",
+        "price2": "$40",
+        "price3": "$35",
+        "price4": "$45"
+    },
+    {
+        "name": "~Honda PCX150 Scooter",
+        "max": 2,
+        "Reservation": "Reservation",
+        "Half": "Half Day (3 hrs)",
+        "Full": "Full Day",
+        "Walk": "Walk-in",
+        "hour": "Half Day (3 hrs)",
+        "Day": "Full Day",
+        "price1": "$40",
+        "price2": "$50",
+        "price3": "$45",
+        "price4": "$55"
+    },
+    {
+        "name": "Honda Pioneer ATV",
+        "max": 4,
+        "Reservation": "Reservation",
+        "Half": "Half Day (3 hrs)",
+        "Full": "Full Day",
+        "Walk": "Walk-in",
+        "hour": "Half Day (3 hrs)",
+        "Day": "Full Day",
+        "price1": "$50",
+        "price2": "$70",
+        "price3": "$60",
+        "price4": "$80"
+    },
+    {
+        "name": "Jeep Wrangler-4 door with a/c",
+        "max": 5,
+        "Reservation": "Reservation",
+        "Half": "Half Day (3 hrs)",
+        "Full": "Full Day",
+        "Walk": "Walk-in",
+        "hour": "Half Day (3 hrs)",
+        "Day": "Full Day",
+        "price1": "$70",
+        "price2": "$100",
+        "price3": "$85",
+        "price4": "$125"
+    },
+    {
+        "name": "Jeep Wrangler-2 door",
+        "max": 4,
+        "Reservation": "Reservation",
+        "Half": "Half Day (3 hrs)",
+        "Full": "Full Day",
+        "Walk": "Walk-in",
+        "hour": "Half Day (3 hrs)",
+        "Day": "Full Day",
+        "price1": "$60",
+        "price2": "$85",
+        "price3": "$70",
+        "price4": "$90"
+    }
+]

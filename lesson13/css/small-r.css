@@ -1,5 +1,5 @@
 body {
-    margin: 10px;
+    margin: 5px;
 }
 header {
     display: grid;
@@ -51,85 +51,33 @@ nav ul.hide {display:none; }
 .hero {
     position: relative;
 }
-.square {
+.banner {
     position: absolute;
-    top: 1px;
-    display: grid;
-    grid-template-columns: 40px 1fr 1fr 1fr;
-    background: radial-gradient(transparent, #aae300);
+    background: #aae300;
+    width: 150px;
+    font-size: 10px;
+    font-family: 'Nanum Gothic';
+    top: 20px;
+    left: 150px;
+    border: 2px solid #0239AD;
+}
+.introduction2 {
+    display: flex;
+    flex-direction: column;
     width: 310px;
-    font-size: 10px;
-    font-family: 'Nanum Gothic';
-}
-#icon0 {
-    grid-column: 1;
-}
-#weather {
-    grid-column: 2;
-    text-align: center;
-}
-#tempe {
-    grid-column: 3;
-    text-align: center;
-}
-#hum {
-    grid-column: 4;
-    text-align: center;
-}
-.flex {
-    display: flex;
-    flex-flow: row wrap;
-    width: 305px;
-    border: #aae300 2px solid;
-    margin-top: 10px;
-}
-.flex-col {
-    flex: 1 1 auto;
-    background-color: #FFFFFF;
-    color: #f04d00; 
-}
-.col-head {
-    display: block;
-    text-align: center;
-    font-family: 'Nanum Gothic';
-    font-size: 15px;
-    background-color: #f04d00;
     color: #FFFFFF;
+    font-style: italic;
+    border: 1px solid #0239AD;
 }
-.icon {
-    width: 30px;
-    height: 30px;
-    margin: 5px 10px 5px 10px;
-}
-.data {
-    display: block;
-    text-align: center;
+.introduction2 .call {
+    text-align: justify;
     font-family: 'Muli';
-    font-size: 10px;
-}
-.introduction {
-    margin-top: 10px;
-    display: flex;
-}
-.call p {
-    margin: 10px;
-    font-family: 'Muli';
-    font-size: 15px;
-}
-.call input {
-text-align: center;
-margin: 10px 30px 0 30px;
-color: #FFFFFF;
-background-color: #aae300;
-font-family: 'Nanum Gothic';
-}
-.rentals {
+    padding: 15px;
     background-color: #0239AD;
-    color: #FFFFFF;
-    margin-top: 10px;
-    align-items: center;
-    padding: 10px;
 }
+
+.rentals {}
+
 .types figure.figure {
     width: 90%;
     margin: 25px 15px 25px 15px;
@@ -220,26 +168,7 @@ footer {
     color: #ffde00;
     font-family: 'Nanum Gothic';
 }
-.banner {
-    position: absolute;
-    background: radial-gradient(transparent, #aae300);
-    width: 150px;
-    font-size: 10px;
-    font-family: 'Nanum Gothic';
-    top: 20px;
-    left: 150px;
-}
-.introduction2 {
-    display: flex;
-    flex-direction: column;
-    background-color: #0239AD;
-    width: 310px;
-    color: #FFFFFF;
-    font-style: italic;
-}
-.introduction2 .call {
-    text-align: justify;
-}
+
  .clearfix:after {
     content:"";
     display: table;

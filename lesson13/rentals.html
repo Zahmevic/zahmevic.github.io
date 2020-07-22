@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="~Scoot's Home Page">
         <link rel="shortcut icon" href="favicon.ico">
-        <link type="text/css" rel="stylesheet" href="css/small.css">
+        <link type="text/css" rel="stylesheet" href="css/small-r.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
     </head>
@@ -16,7 +16,7 @@
             <source media="(max-width: 768px)" srcset="images/logo200.png">
               <img src="images/logo600.png" alt="logo">  
         </picture>
-        <section class="header">
+    <section class="header">
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
@@ -31,75 +31,29 @@
 </header>
     <main>
         <div class="hero">
-        <picture class="banner">
-            <source media="(max-width: 320px)" srcset="images/COZ310.jpg">
-            <source media="(max-width: 375px)" srcset="images/COZ370.jpg">
-            <source media="(max-width: 425px)" srcset="images/COZ420.jpg">
-            <source media="(max-width: 768px)" srcset="images/COZ765.jpg">
-            <img src="images/COZ.jpg" alt="Cozumel">
+        <picture>
+            <source media="(max-width: 320px)" srcset="images/banner310.jpg">
+            <source media="(max-width: 375px)" srcset="images/banner370.jpg">
+            <source media="(max-width: 425px)" srcset="images/banner420.jpg">
+            <source media="(max-width: 768px)" srcset="images/banner765.jpg">
+            <img src="images/banner.jpg" alt="Cozumel">
         </picture>
-        <section class="square">
-            <span id="img"><img class="icon" src="" id="icon0"></span>
-                <p id="weather"><span id="weath"></span></p>
-                <p id="tempe"><span id="temp"></span>&deg; F</p>
-                <p id="hum">Humidity: <span id="humidity"></span>&#37;</p>
+        <section class="banner">
+            <h2>Know our services</h2>
         </section>
     </div>
-    <div class="flex">
-<div class="flex-col">
-    <span class="col-head" id="day1"></span>
-    <span id="imagesrc1"><img class="iconB" src="" id="icon1"></span>
-    <p class="data"><span id="for1"></span>&deg; F</p>
-</div>
-<div class="flex-col">
-    <span class="col-head" id="day2"></span>
-    <span id="imagesrc2"><img class="iconB" src="" id="icon2"></span>
-    <p class="data"><span id="for2"></span>&deg; F</p>
-</div>
-<div class="flex-col">
-    <span class="col-head" id="day3"></span>
-    <span id="imagesrc3"><img class="iconB" src="" id="icon3"></span>
-    <p class="data"><span id="for3"></span>&deg; F</p>
-</div>
-<div class="flex-col">
-    <span class="col-head" id="day4"></span>
-    <span id="imagesrc4"><img class="iconB" src="" id="icon4"></span>
-    <p class="data"><span id="for4"></span>&deg; F</p>
-</div>
-<div class="flex-col">
-    <span class="col-head" id="day5"></span>
-    <span id="imagesrc5"><img class="iconB" src="" id="icon5"></span>
-    <p class="data"><span id="for5"></span>&deg; F</p>
-</div>
-    </div>
-<div class="introduction">
-<picture class="moto">
-    <source media="(max-width: 320px)" srcset="images/moto160.jpg">
-    <source media="(max-width: 768px)" srcset="images/moto380.jpg">
-        <img src="images/moto520.jpg" alt="scooter">
-</picture>
+<div class="introduction2">
 <section class="call">
-    <p>We have the best offers in Cozumel!</p>
-    <input type="button" value="Rent Here">
+    <p>"I really loved their services, upon arriving at their facilities, the employees treated me with respect, patience and professionalism, I was able to realize the constant training they receive to serve us in the best way, I used this platform to reserve an offer package, and It was very simple, everything is well organized, plus their scooters are clean and well maintained."
+    </p>
 </section>
+<picture class="moto">
+    <source media="(max-width: 320px)" srcset="images/chica310.jpg">
+    <source media="(max-width: 768px)" srcset="images/chica380.jpg">
+        <img src="images/chica550.jpg" alt="Customer">
+</picture>
 </div>
-<div class="rentals">
-<h2>Type of Rentals</h2>
-<div class="types">
-<figure class="figure"><img src="images/placeholder.png" data-src="images/metro250.jpg" alt="Metropolitan">
-    <figcaption>Honda Metropolitan (49cc) - 1 person</figcaption></figure>
-<figure class="figure"><img src="images/placeholder.png" data-src="images/dio250.jpg" alt="Dio">
-    <figcaption>Honda Dio (110cc) - 2 person</figcaption></figure>
-<figure class="figure"><img src="images/placeholder.png" data-src="images/pcx250.jpg" alt="PCX150">
-    <figcaption>Honda PCX150 (149cc) - 2 person</figcaption></figure>
-<figure class="figure"><img src="images/placeholder.png" data-src="images/pioneer250.jpg" alt="Pioneer">
-    <figcaption>Honda Pioneer 1000</figcaption></figure>
-<figure class="figure"><img src="images/placeholder.png" data-src="images/jeep250.jpg" alt="4-door Jeep Wrangler">
-    <figcaption>4-door Jeep Wrangler - manual with A/C - 5 people max</figcaption></figure>
-<figure class="figure"><img src="images/placeholder.png" data-src="images/wrangler250.jpg" alt="2-door Jeep Wrangler">
-    <figcaption>2-door Jeep Wrangler - open air - manual - 4 people max</figcaption></figure>
-</div>
-</div>
+<div class="rentals"></div>
 <div class="info">
 <div class="contact">
     <h3>Playa del Carmen Cozumel-Ferry Dock</h3>
@@ -134,8 +88,8 @@
     <script src ="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="java/webfont.js"></script>
     <script src="java/menu.js"></script>
-    <script src="java/weather.js"></script>
-    <script src="java/forecast.js"></script>
     <script src="java/gallery.js"></script>
+    <script src="java/prices.js"></script>
+
     </body>
 </html>
