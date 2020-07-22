@@ -5,11 +5,19 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    //console.table(jsonObject); 
-const table = jsonObject[''];
+    console.table(jsonObject); 
+const table = jsonObject['table'];
+for (let i = 0; i < table.lenght; i++ ) {
+  let rentals = document.createElement('section');
+  let h2 = document.createElement('h2');
+  let h3 = document.createElement('h3');
 
-},
-function table(table){
-  console.log(table);
+  h2.textContent = table[i].name;
+  h3.textContent = table[i].max;
+
+  rentals.appendChild(h2);
+  rentals.appendChild(h3);
+
+  document.querySelector('div.rentals').appendChild(rentals);
 }
-)
+  })

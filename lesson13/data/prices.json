@@ -1,6 +1,6 @@
 {
     "table": [
-    {
+        {
         "name": "~Honda Metro Scooter",
         "max": 1,
         "Reservation": "Reservation",
@@ -83,5 +83,5 @@
         "price2": "$85",
         "price3": "$70",
         "price4": "$90"
-    }
-]}
+        }
+        ]}
