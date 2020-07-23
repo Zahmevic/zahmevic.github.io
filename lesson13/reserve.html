@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>~Scoot's Rentals</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="~Scoot's Home Page">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link type="text/css" rel="stylesheet" href="css/small-f.css">
+        <link rel="stylesheet" href="css/medium-f.css">
+        <link rel="stylesheet" href="css/large-f.css">
+    </head>
+    <body>
+    <header>
+        <picture class="logo">
+            <source media="(max-width: 768px)" srcset="images/logo200.png">
+              <img src="images/logo600.png" alt="logo">  
+        </picture>
+    <section class="header">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a class="menu" href="home.html">Home</a></li>
+            <li><a class="menu" href="rentals.html">Rentals</a></li>
+            <li><a class="active" href="reserve.html">Reservations</a></li>
+            <li><a class="menu" href="tours.html">Tours</a></li>
+            <li><a class="menu" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+</header>
+    <main>
+        <div class="hero">
+        <picture>
+            <source media="(max-width: 320px)" srcset="images/beach310.jpg">
+            <source media="(max-width: 768px)" srcset="images/beach765.jpg">
+            <img src="images/beach.jpg" alt="South Beach">
+        </picture>
+        <section class="banner">
+            <h2>Fill In the Form</h2>
+        </section>
+    </div>
+    <div class="formulario">
+<h2>Step 1.</h2>
+<form method="get" action="payment.html">
+    <fieldset>
+        <legend>Service Information</legend>
+        <label class="top">Select your scooter*
+            <select name="Select Scooter" required>
+                <option value="">Select Scooter....... &#9662;</option>
+                <option value="metro">~Honda Metro Scooter</option>
+                <option value="dio">~Honda Dio Scooter</option>
+                <option value="pcx">~Honda PCX150 Scooter</option>
+                <option value="pioneer">Honda Pioneer 1000</option>
+                <option value="jeep">Jeep Wrangler - 4 door with a/c</option>
+                <option value="wrangler">Jeep Wrangler - 2 door</option>
+            </select>
+        </label>
+    <div id="number" class="top">Persons Number</div>
+    <input class="radio" type="radio" name="persons-number" value="1 person"><label class="card"> 1</label><br>
+    <input class="radio" type="radio" name="persons-number" value="2 persons"><label class="card"> 2</label><br>
+    <input class="radio" type="radio" name="persons-number" value="4 persons"><label class="card"> 4</label><br>
+    <input class="radio" type="radio" name="persons-number" value="5 persons"><label class="card"> 5</label>
+    <div><label class="top">Start Service Date*
+        <input type="date" name="completeDate" required>
+    </label></div>
+    <div><label class="top">End Service Date
+        <input type="date" name="completeDate">
+    </label></div>
+    </fieldset>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label class="sbs">Name*
+            <input type="text" name="name" id="name" required pattern="[A-Za-z\s]{5,}">
+        </label>
+        <label class="sbs">Last Name*
+            <input type="text" name="lname" id="name" required pattern="[A-Za-z\s]{5,}">
+        </label>
+        <label class="sbs">Address*
+            <input type="text" name="address" id="name" required pattern="[A-Za-z\s][0-9]+{1,15}">
+        </label>
+        <label class="sbs">Zip Code*
+            <input type="number" name="number" id="name" required>
+        </label>
+        <label class="sbs">E-mail
+        <input type="email" name="email" id="name" placeholder="example@gmail.com">
+        </label>
+        <label class="sbs">Phone Number*
+            <input type="tel" name="phone" id="name" placeholder="2281273071" required>
+        </label>
+        <label class="sbs">Country*
+            <select name="Select Scooter" required>
+                <option value="">Select Country....... &#9662;</option>
+                <option value="usa">United States</option>
+                <option value="mex">Mexico</option>
+                <option value="ale">Germany</option>
+                <option value="fra">France</option>
+                <option value="ita">Italy</option>
+                <option value="jap">Japan</option>
+                <option value="spa">Spain</option>
+                <option value="other">Other</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend class="text">Additional Information/Comments</legend>
+        <textarea id="comments" name="comments">Text here...</textarea>
+    </fieldset>
+    <input type="submit" value="Send the form" class="submitButton">
+</form>
+</div>
+<div class="contact">
+    <section id="one">
+    <h3>Playa del Carmen Cozumel-Ferry Dock</h3>
+    <p>Av. Rafael E. Melgar, Centro, 77600 San Miguel de Cozumel, Q.R.</p>
+    <p>scoots.ferry@gmail.com</p>
+    <p>(01) 987-100-27-55</p>
+    </section>
+    <section id="two">
+    <h3>Terminal Puerta Maya</h3>
+    <p>Carretera Chankanaab km 4.5, Carretera Costera Sur, 77600 San Miguel de Cozumel, Q.R.</p>
+    <p>scoots.puertam@gmail.com</p>
+    <p>(01) 987-100-27-56</p>
+</section>
+</div>
+<section class="social">
+    <img class="face" src="images/faceL.png" alt="Facebook"><a class="face" href="https://www.facebook.com/sacnictec">@scootsMX</a>
+    <img class="insta" src="images/insta.png" alt="Instagram"><a class="insta" href="#">@scootsMX</a>
+    <img class="twit" src="images/twit.png" alt="Twitter"><a class="twit" href="#">@scootsMX</a>
+</section>
+
+    </main>
+    <footer>
+        &copy; ~Scoots | BYU-Idaho Online WDD230 | Melissa Zahori de Vazquez Molina<br>
+        <span class="date" id="date"></span><script src="java/date.js"></script>
+    </footer>
+    <script src ="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="java/webfont.js"></script>
+    <script src="java/menu.js"></script>
+    <script src="java/rating.js"></script>
+
+    </body>
+</html>

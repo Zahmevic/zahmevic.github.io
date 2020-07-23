@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 20px;
+    }
+    main, footer {
+        width: 768px;
+    }
+    .logo {
+        grid-row: 1/3;
+    }
+    .header {
+        grid-row: 2;
+    }
+    nav {
+        display: flex;
+        margin: 20px 0 5px 15px;
+        width: 550px;
+        height: 30px;
+    }
+    nav ul li {
+        border-left: 1px solid #FFFFFF;
+        width: 109px;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        line-height: 5px;
+    }
+    nav button {
+    display: none;
+    }
+    nav ul {
+    flex-flow: row wrap;
+    width: 565px;
+    }
+    nav ul.hide {display: flex; }
+    
+    .banner {
+        width: 300px;
+        left: 450px;
+        font-size: 20px;
+    }
+    .introduction2 {
+        flex-direction: row;
+        width: 765px;
+    }
+    .introduction2 .call {
+        font-size: 20px;
+    }
+    .rentals {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .rentals section {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .rentals img {
+        margin: 15px;
+        height: 221px;
+        width: 90%;
+    }
+    .button button {
+        font-size: 30px;
+        margin: 20px 270px 20px 270px;
+    }
+    .contact #one{
+        font-size: 15px;
+        width: 50%;
+    }
+    .contact #two{
+        font-size: 15px;
+        width: 50%;
+    }
+    .social img {
+        width: 30px;
+    }
+
+}

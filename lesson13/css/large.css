@@ -2,6 +2,9 @@
 body {
     margin: 30px;
 }
+main, footer {
+    width: 1024px;
+}
     .logo {
   grid-row: 1;
     }
@@ -59,7 +62,7 @@ grid-column: 1/3;
     .call p {
         margin: 50px 150px;
     }
-    .call input {
+    .call button {
     margin: 0 350px;
     }
     .types {

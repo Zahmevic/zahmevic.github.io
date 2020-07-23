@@ -1,0 +1,229 @@
+body {
+    margin: 5px;
+}
+header {
+    display: grid;
+}
+.logo {
+    grid-column: 1;
+}
+.header {
+    grid-column: 2;
+}
+nav {
+    font-family: 'Nanum Gothic';
+    font-size: 15px;
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #c4003d;
+    font-size: 2rem;
+margin: 10px 0 0 70px;  
+}
+nav ul {
+    list-style-type: none;
+padding: 0;
+margin: 0;
+overflow: hidden;
+background-color: #c4003d;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+  .menu {
+    color: #FFFFFF;
+  }
+  .active {
+      background-color: #aae300;
+      color: #000000;
+  }
+
+nav ul li a:hover {
+    background-color: #ffde00;
+}
+nav ul li.active a{background-color: #3a063d; color: #FFFFFF;}
+nav ul.hide {display:none; }
+.hero {
+    position: relative;
+    margin: 0;
+}
+.banner {
+    position: absolute;
+    background: #aae300;
+    width: 150px;
+    font-size: 10px;
+    font-family: 'Nanum Gothic';
+    top: 20px;
+    left: 150px;
+    border: 2px solid #0239AD;
+    text-align: center;
+}
+.formulario h2 {
+    font-family: 'Nanum Gothic';
+}
+legend {
+    font-family: 'Muli';
+    padding: 5px;
+}
+fieldset {
+    margin: 15px;
+    border: 1px solid #c4003d;
+    padding: 20px;
+}
+label {
+    font-family: 'Muli';
+}
+form label.top, form div {
+    display: block;
+    padding-top: 10px;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    border: 1px solid #0239AD;
+    padding: 5px;
+    background-color: aliceblue;
+}
+form label.top select {
+    width: 100%;
+    max-width: 768px;
+}
+form label.top input {
+    width: 95%;
+    max-width: 768px;
+}
+form label.sbs {
+    display: block;
+    padding-top: 10px;
+}
+form label.sbs input, form label.sbs select {
+    -webkit-appearance: none;
+    display: block;
+    border: 1px solid #0239AD;
+    padding: 5px;
+    background-color: aliceblue;   
+}
+form label.sbs select {
+    width: 100%;
+    max-width: 768px;
+}
+form label.sbs input {
+    width: 95%;
+    max-width: 768px;
+}
+form input.submitButton {
+    border: none;
+    background-color: #aae300;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px;
+    margin: 0 0 10px 15px;
+    width: 90%;
+    max-width: 768px;
+}
+#number {
+    font-family: 'Muli';
+}
+:placeholder-shown {
+    font-family: 'Nanum Gothic';
+}
+select, textarea {
+    font-family: 'Nanum Gothic';
+}
+textarea {
+    width: 100%;
+    height: 200px;
+}
+.text {
+    font-size: 14px;
+}
+form label input:required {
+    border-left: 6px solid #0239AD;
+}
+form label input:required:valid {
+    border-left: 6px solid #aae300;
+}
+form label select:required {
+    border-left: 6px solid #0239AD;
+}
+form label select:required:valid {
+    border-left: 6px solid #aae300;
+}
+.contact {
+ background-color: #0239AD;
+ color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    padding: 0;
+    margin-left: 0;
+}
+.contact #one {
+    font-family: 'Muli';
+    font-size: 10px;
+    padding: 5px;
+
+}
+.contact #two {
+    font-family: 'Muli';
+    font-size: 10px;
+    padding: 5px;
+    flex: 1;
+}
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    background-color: #0239AD;
+}
+.face {
+    grid-column: 1;
+}
+.social img {
+    width: 20px;
+    grid-row: 1;
+    margin: 0 auto;
+}
+.social a {
+    margin-bottom: 10px;
+    font-family: 'Muli';
+    font-size: 10px;
+    text-align: center;
+    color: #ffde00;
+}
+.insta {
+    grid-column: 2;
+}
+.twit {
+    grid-column: 3;
+}
+footer {
+    background-color: #ffde00;
+    color: #000000;
+    font-family: 'Muli';
+    text-align: center;
+}
+.date {
+    color: #c4003d;
+    font-family: 'Nanum Gothic';
+}
+.thanks {
+    text-align: center;
+    background-color: #aae300;
+    font-family: 'Nanum Gothic';
+    line-height: 30px;
+    padding: 10px;
+    border: 2px solid #c4003d;
+    margin: 20px 0 20px 0;
+}
+ .clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+        }

@@ -1,0 +1,139 @@
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 20px;
+    }
+    main, footer {
+        width: 768px;
+    }
+    .logo {
+        grid-row: 1/3;
+    }
+    .header {
+        grid-row: 2;
+    }
+    nav {
+        display: flex;
+        margin: 20px 0 5px 15px;
+        width: 550px;
+        height: 30px;
+    }
+    nav ul li {
+        border-left: 1px solid #FFFFFF;
+        width: 109px;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        line-height: 5px;
+    }
+    nav button {
+    display: none;
+    }
+    nav ul {
+    flex-flow: row wrap;
+    width: 565px;
+    }
+    nav ul.hide {display: flex; }
+    
+    .banner {
+        width: 300px;
+        left: 450px;
+        font-size: 20px;
+    }
+    .formulario h2 {
+        font-size: 35px;
+    }
+    legend {
+        font-size: 20px;
+    }
+    fieldset {
+        margin: 30px;
+    }
+    label {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    #number, .radio {
+        margin-left: 50px;
+    }
+    .card {
+        margin-left: 10px;
+    }
+    .month {
+        margin-left: 50px;
+    }
+    form label.top, form div {
+        padding-top: 15px;
+    }
+    form label.top input, form label.top select {
+        -webkit-appearance: none;
+        display: block;
+        border: 1px solid #0239AD;
+        padding: 5px;
+        background-color: aliceblue;
+    }
+    form label.top select {
+        width: 88%;
+    }
+    form label.top input {
+        width: 85%;
+    }
+    
+    form label.sbs select {
+        width: 88%;
+    }
+    form label.sbs input {
+        width: 85%;
+    }
+    form input.submitButton {
+        line-height: 35px;
+        padding: 15px;
+        margin: 0 0 10px 35px;
+    }
+    :placeholder-shown {
+        font-size: 20px;
+    }
+    select, textarea, input {
+        font-size: 20px;
+    }
+    textarea {
+        width: 100%;
+        height: 200px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    form label input:required {
+        border-left: 6px solid #0239AD;
+    }
+    form label input:required:valid {
+        border-left: 6px solid #aae300;
+    }
+    form label select:required {
+        border-left: 6px solid #0239AD;
+    }
+    form label select:required:valid {
+        border-left: 6px solid #aae300;
+    }
+    .thanks {
+        text-align: center;
+        background-color: #aae300;
+        font-family: 'Nanum Gothic';
+        line-height: 30px;
+        padding: 10px;
+        border: 2px solid #c4003d;
+        margin: 70px;
+    }
+    .contact #one{
+        font-size: 15px;
+        width: 50%;
+    }
+    .contact #two{
+        font-size: 15px;
+        width: 50%;
+    }
+    .social img {
+        width: 30px;
+    }
+
+}

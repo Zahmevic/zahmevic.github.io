@@ -2,6 +2,9 @@
 body {
     margin: 20px;
 }
+main, footer {
+    width: 768px;
+}
 .logo {
     grid-row: 1/3;
 }
@@ -66,7 +69,7 @@ nav ul.hide {display: flex; }
     text-align: center;
     margin: 20px;
 }
-.call input {
+.call button {
 margin: 0 130px;
 height: 50px;
 width: 120px;

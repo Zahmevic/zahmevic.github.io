@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 20px;
+    }
+    main, footer {
+        width: 768px;
+    }
+    .logo {
+        grid-row: 1/3;
+    }
+    .header {
+        grid-row: 2;
+    }
+    nav {
+        display: flex;
+        margin: 20px 0 5px 15px;
+        width: 550px;
+        height: 30px;
+    }
+    nav ul li {
+        border-left: 1px solid #FFFFFF;
+        width: 109px;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        line-height: 5px;
+    }
+    nav button {
+    display: none;
+    }
+    nav ul {
+    flex-flow: row wrap;
+    width: 565px;
+    }
+    nav ul.hide {display: flex; }
+    .banner {
+        top: 80px;
+        left: 70px;
+        width: 250px;
+    }
+    .places {
+        display: flex;
+        flex-direction: column;
+    }
+    .place, .place2, .place3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+.place h3, .place2 h3, .place3 h3 {
+    grid-column: 1/4;
+}
+.place p, .place2 p, .place3 p {
+    grid-column: 1/4;
+    grid-row: 2;
+}
+.place iframe, .place2 iframe,.place3 iframe {
+    width: 310px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.place img, .place2 img, .place3 img {
+    height: 300px;
+    margin-left: 20px;
+}
+h2 {
+    font-size: 25px;
+}
+    .contact #one{
+        font-size: 15px;
+        width: 50%;
+    }
+    .contact #two{
+        font-size: 15px;
+        width: 50%;
+    }
+    .social img {
+        width: 30px;
+    }
+
+}
