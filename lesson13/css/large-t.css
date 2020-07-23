@@ -47,14 +47,18 @@
         .place, .place2, .place3 {
             display: flex;
             flex-direction: column;
+            width: 400px;
         }
         .place iframe, .place2 iframe,.place3 iframe {
             width: 310px;
-            margin: 0 100px 10px 100px;
+            margin: 0 50px 10px 50px;
         }
         .place img, .place2 img, .place3 img {
             height: 300px;
             margin:10px;
+        }
+        .place2 p {
+            line-height: 42px;
         }
         .contact #one{
             font-size: 20px;
